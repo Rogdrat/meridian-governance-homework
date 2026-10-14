@@ -1,0 +1,552 @@
+rule_id,agency_id,rule_name,rule_type,status,frequency,created_at,owner_emails,last_successful_check_date,processing_error_message,view_update_time,author_email
+100004,5003,rule_snapchat_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-09-02,olive.fischer@harbor.com,2026-09-30,,2024-09-15,tara.adams@harbor.com
+100009,5003,rule_snapchat_campaign_contains_negative_keyword,compliance,Disabled,daily,2024-12-26,noah.turner@harbor.com,2026-07-04,,2025-01-14,service_user_5003@meridiandata.io
+100023,5003,rule_facebook_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-02-04,anna.turner@harbor.com,2026-08-20,Found at least 1 id with 166 duplicates,2025-02-21,noah.hughes@harbor.com
+100025,5003,rule_google_ads_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-10-24,elena.jensen@harbor.com,2026-05-11,"Dataset is empty, no content to insert",2024-11-13,service_user_5003@meridiandata.io
+100029,5003,rule_google_ads_account_has_auto_tagging_enabled,compliance,Enabled,daily,2025-02-04,james.turner@harbor.com;elena.hughes@meridiandata.io,2026-09-29,,2025-02-11,service_user_5003@meridiandata.io
+100035,5003,rule_snapchat_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2024-12-10,olive.turner@harbor.com,2026-09-28,,2024-12-25,tara.patel@harbor.com
+100039,5003,rule_snapchat_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2025-01-07,maya.silva@harbor.com,2026-09-28,,2025-01-19,service_user_5003@meridiandata.io
+100040,5003,rule_google_ads_campaign_contains_negative_keyword,compliance,Enabled,daily,2025-04-02,noah.lopez@harbor.com,2026-02-15,Code: 241. DB::Exception: Memory limit exceeded,2025-04-18,service_user_5003@meridiandata.io
+100041,5003,rule_facebook_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-07-07,quinn.silva@harbor.com;grace.reyes@meridiandata.io,2026-09-30,,2024-07-19,service_user_5003@meridiandata.io
+100044,5003,rule_facebook_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-07-08,carla.novak@harbor.com,2026-09-30,,2024-07-12,service_user_5003@meridiandata.io
+100050,5003,rule_facebook_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2024-11-21,grace.novak@harbor.com,2026-09-28,,2024-11-25,ben.adams@harbor.com
+100053,5003,rule_tiktok_campaign_is_at_or_less_10_avg_cpc,threshold,Enabled,daily,2024-08-30,liam.owens@harbor.com,2026-09-29,,2024-09-14,service_user_5003@meridiandata.io
+100054,5003,rule_linkedin_campaign_present_in_utm,compliance,Enabled,daily,2025-03-04,quinn.gray@harbor.com;grace.diaz@meridiandata.io,2026-07-17,Found at least 1 id with 226 duplicates,2025-03-15,carla.jensen@harbor.com
+100056,5003,rule_pinterest_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-09-05,elena.chen@harbor.com,2026-09-28,,2024-09-22,service_user_5003@meridiandata.io
+100058,5003,rule_pinterest_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-05-29,dmitri.reyes@harbor.com;carla.jensen@meridiandata.io,2026-09-30,,2024-06-17,quinn.turner@harbor.com
+100061,5003,rule_google_ads_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-05-10,carla.fischer@harbor.com,2026-09-29,,2024-05-12,service_user_5003@meridiandata.io
+100062,5003,rule_facebook_campaign_present_in_utm,compliance,Enabled,daily,2024-11-03,hugo.chen@harbor.com;anna.brooks@meridiandata.io,2026-03-27,Has 616 rows which exceeds the limit of 5000,2024-11-20,frank.diaz@harbor.com
+100064,5003,rule_tiktok_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2025-03-21,anna.kaur@harbor.com,2026-08-24,Has 796 rows which exceeds the limit of 5000,2025-03-28,service_user_5003@meridiandata.io
+100076,5003,rule_google_ads_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-06-01,ben.wolfe@harbor.com,2026-04-21,Code: 241. DB::Exception: Memory limit exceeded,2024-06-04,kate.ito@harbor.com
+100088,5003,rule_snapchat_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2025-04-19,dmitri.kaur@harbor.com,2026-09-30,,2025-04-21,kate.novak@harbor.com
+100089,5037,rule_bing_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2025-03-30,dmitri.hughes@westbrook.com;quinn.novak@meridiandata.io,2026-03-06,Has 186 rows which exceeds the limit of 5000,2025-04-13,service_user_5037@meridiandata.io
+100090,5037,rule_bing_spend_percentage_increased_by_25,pacing,Enabled,daily,2025-02-17,frank.kaur@westbrook.com,2026-09-29,,2025-02-28,anna.ito@westbrook.com
+100091,5037,rule_google_ads_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-10-15,quinn.lopez@westbrook.com;tara.gray@meridiandata.io,2026-06-24,Code: 241. DB::Exception: Memory limit exceeded,2024-10-31,service_user_5037@meridiandata.io
+100092,5037,rule_bing_account_has_auto_tagging_enabled,compliance,Enabled,monthly,2025-03-13,iris.ito@westbrook.com,2026-09-28,,2025-03-29,iris.ito@westbrook.com
+100093,5037,rule_tiktok_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2024-12-17,james.reyes@westbrook.com;olive.adams@meridiandata.io,2026-09-29,,2024-12-18,service_user_5037@meridiandata.io
+100094,5037,rule_google_ads_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,daily,2025-04-12,carla.novak@westbrook.com,2026-09-29,,2025-04-25,anna.kaur@westbrook.com
+100095,5037,rule_snapchat_campaign_name_contains_region_code_matching_allowed_values,naming,Disabled,daily,2025-03-21,grace.jensen@westbrook.com,2026-01-16,,2025-03-25,carla.kaur@westbrook.com
+100096,5037,rule_snapchat_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,monthly,2024-07-19,rosa.wolfe@westbrook.com;noah.ito@meridiandata.io,2026-09-29,,2024-07-20,service_user_5037@meridiandata.io
+100097,5037,rule_pinterest_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2024-04-26,grace.moore@westbrook.com,2026-09-28,,2024-05-06,james.owens@westbrook.com
+100098,5037,rule_bing_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-07-17,james.fischer@westbrook.com,2026-09-05,Code: 60. DB::Exception: Table does not exist,2024-07-31,liam.patel@westbrook.com
+100099,5037,rule_snapchat_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-10-24,elena.reyes@westbrook.com,2026-09-29,,2024-10-24,service_user_5037@meridiandata.io
+100100,5037,rule_facebook_account_has_auto_tagging_enabled,compliance,Enabled,daily,2025-03-06,dmitri.turner@westbrook.com;tara.wolfe@meridiandata.io,2026-09-29,,2025-03-12,olive.jensen@westbrook.com
+100105,5082,rule_pinterest_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-11-21,dmitri.patel@north.com,2026-06-15,Found at least 1 id with 96 duplicates,2024-11-30,maya.ito@north.com
+100106,5082,rule_tiktok_campaign_has_tracking_url_template,compliance,Enabled,monthly,2024-11-07,noah.brooks@north.com;liam.jensen@meridiandata.io,2026-05-04,Configuration invalid: field not queryable,2024-11-23,pedro.jensen@north.com
+100107,5082,rule_pinterest_campaign_present_in_utm,compliance,Enabled,monthly,2024-05-06,dmitri.adams@north.com,2026-09-28,,2024-05-11,iris.wolfe@north.com
+100109,5082,rule_facebook_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2024-07-07,rosa.adams@north.com,2026-09-29,,2024-07-23,kate.wolfe@north.com
+100111,5116,rule_google_ads_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-04-17,elena.reyes@granite.com,2026-09-30,,2024-04-30,olive.evans@granite.com
+100112,5116,rule_linkedin_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2025-01-30,quinn.silva@granite.com,2026-09-28,,2025-02-10,pedro.lopez@granite.com
+100113,5116,rule_facebook_campaign_name_contains_channel_matching_allowed_values,naming,Disabled,daily,2024-06-01,elena.chen@granite.com;anna.ito@meridiandata.io,2026-01-14,,2024-06-11,service_user_5116@meridiandata.io
+100114,5116,rule_facebook_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2024-04-22,elena.turner@granite.com,2026-09-29,,2024-04-27,noah.diaz@granite.com
+100115,5116,rule_pinterest_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-10-06,olive.evans@granite.com,2026-09-28,,2024-10-12,service_user_5116@meridiandata.io
+100116,5116,rule_tiktok_account_has_auto_tagging_enabled,compliance,Enabled,weekly,2024-11-02,rosa.patel@granite.com,2026-09-29,,2024-11-04,dmitri.brooks@granite.com
+100117,5116,rule_tiktok_campaign_is_at_or_less_10_avg_cpc,threshold,Enabled,daily,2025-03-01,iris.chen@granite.com;liam.adams@meridiandata.io,2026-09-29,,2025-03-07,dmitri.kaur@granite.com
+100119,5116,rule_pinterest_campaign_is_at_or_above_1_vcr,threshold,Disabled,daily,2024-05-21,dmitri.hughes@granite.com,2026-01-18,,2024-06-06,service_user_5116@meridiandata.io
+100120,5116,rule_google_ads_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-11-11,kate.gray@granite.com,2026-09-30,,2024-11-17,service_user_5116@meridiandata.io
+100121,5116,rule_linkedin_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-07-29,iris.moore@granite.com,2026-09-28,,2024-08-03,service_user_5116@meridiandata.io
+100124,5116,rule_google_ads_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-02-11,olive.evans@granite.com,2026-09-30,,2025-02-14,service_user_5116@meridiandata.io
+100125,5116,rule_bing_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2025-04-09,pedro.gray@granite.com,2026-09-30,,2025-04-26,service_user_5116@meridiandata.io
+100126,5116,rule_tiktok_campaign_is_at_or_above_1000_impressions,threshold,Enabled,daily,2024-10-21,quinn.adams@granite.com,2026-09-28,,2024-10-31,iris.novak@granite.com
+100127,5116,rule_google_ads_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2025-04-10,dmitri.lopez@granite.com,2026-06-05,Code: 60. DB::Exception: Table does not exist,2025-04-27,service_user_5116@meridiandata.io
+100128,5116,rule_tiktok_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2025-04-07,tara.wolfe@granite.com;kate.owens@meridiandata.io,2026-09-28,,2025-04-23,carla.reyes@granite.com
+100129,5116,rule_tiktok_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-07-09,rosa.chen@granite.com,2026-05-04,Has 767 rows which exceeds the limit of 5000,2024-07-27,service_user_5116@meridiandata.io
+100131,5116,rule_tiktok_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2024-07-09,grace.patel@granite.com,2026-09-28,,2024-07-12,service_user_5116@meridiandata.io
+100132,5116,rule_pinterest_campaign_name_contains_entity_matching_allowed_values,naming,Disabled,daily,2024-11-01,sam.owens@granite.com,2026-05-21,,2024-11-12,tara.patel@granite.com
+100133,5149,rule_facebook_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-09-18,hugo.wolfe@tidewater.com;grace.novak@meridiandata.io,2026-08-06,Found at least 1 id with 98 duplicates,2024-10-02,noah.adams@tidewater.com
+100134,5149,rule_google_ads_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2024-04-16,sam.evans@tidewater.com;hugo.fischer@meridiandata.io,2026-03-24,Has 688 rows which exceeds the limit of 5000,2024-05-06,service_user_5149@meridiandata.io
+100135,5149,rule_bing_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-06-01,sam.diaz@tidewater.com;liam.chen@meridiandata.io,2026-09-30,,2024-06-11,service_user_5149@meridiandata.io
+100136,5149,rule_tiktok_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2024-12-01,frank.adams@tidewater.com;maya.patel@meridiandata.io,2026-09-30,,2024-12-01,service_user_5149@meridiandata.io
+100137,5149,rule_linkedin_spend_percentage_increased_by_25,pacing,Enabled,daily,2025-04-05,sam.brooks@tidewater.com,2026-05-10,,2025-04-06,service_user_5149@meridiandata.io
+100138,5185,rule_snapchat_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-12-30,carla.brooks@quarry.com;rosa.evans@meridiandata.io,2026-09-28,,2025-01-10,hugo.turner@quarry.com
+100139,5185,rule_bing_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2025-03-29,noah.owens@quarry.com,2026-09-30,,2025-04-06,ben.lopez@quarry.com
+100140,5185,rule_pinterest_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-10-30,sam.evans@quarry.com,2026-09-28,,2024-11-15,tara.silva@quarry.com
+100141,5185,rule_bing_campaign_is_at_or_less_10_avg_cpc,threshold,Enabled,daily,2024-05-05,sam.turner@quarry.com;frank.patel@meridiandata.io,2026-09-28,,2024-05-10,maya.silva@quarry.com
+100142,5185,rule_google_ads_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-07-12,ben.wolfe@quarry.com;iris.ito@meridiandata.io,2026-04-02,Code: 60. DB::Exception: Table does not exist,2024-07-21,tara.diaz@quarry.com
+100143,5185,rule_pinterest_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-10-03,pedro.jensen@quarry.com,2026-03-04,Has 140 rows which exceeds the limit of 5000,2024-10-20,service_user_5185@meridiandata.io
+100144,5185,rule_bing_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-06-27,frank.diaz@quarry.com,2026-04-30,Found at least 1 id with 387 duplicates,2024-07-16,service_user_5185@meridiandata.io
+100145,5225,rule_bing_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-10-26,noah.chen@marlowe.com,2026-09-30,,2024-10-27,service_user_5225@meridiandata.io
+100146,5225,rule_snapchat_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-05-09,grace.ito@marlowe.com,2026-09-29,,2024-05-26,sam.reyes@marlowe.com
+100147,5225,rule_google_ads_campaign_present_in_utm,compliance,Enabled,daily,2024-10-17,dmitri.silva@marlowe.com,2026-09-28,,2024-10-18,kate.fischer@marlowe.com
+100148,5225,rule_tiktok_spend_percentage_increased_by_25,pacing,Enabled,weekly,2024-08-11,maya.lopez@marlowe.com,2026-09-28,,2024-08-28,dmitri.hughes@marlowe.com
+100149,5225,rule_facebook_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-06-01,ben.kaur@marlowe.com,2026-03-30,"Dataset is empty, no content to insert",2024-06-01,james.moore@marlowe.com
+100150,5225,rule_linkedin_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2025-02-15,sam.adams@marlowe.com,2026-05-16,Code: 241. DB::Exception: Memory limit exceeded,2025-02-16,carla.adams@marlowe.com
+100151,5225,rule_bing_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-10-14,dmitri.novak@marlowe.com,2026-09-30,,2024-10-16,service_user_5225@meridiandata.io
+100152,5225,rule_linkedin_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-06-23,frank.silva@marlowe.com,2026-09-28,,2024-07-10,service_user_5225@meridiandata.io
+100153,5225,rule_bing_campaign_is_at_or_less_10_avg_cpc,threshold,Disabled,daily,2025-04-04,noah.moore@marlowe.com,2026-03-28,,2025-04-07,rosa.jensen@marlowe.com
+100154,5225,rule_snapchat_account_has_auto_tagging_enabled,compliance,Enabled,weekly,2025-01-19,olive.diaz@marlowe.com,2026-09-28,,2025-01-25,maya.turner@marlowe.com
+100155,5225,rule_linkedin_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-05-13,carla.wolfe@marlowe.com,2026-09-03,Found at least 1 id with 412 duplicates,2024-06-02,service_user_5225@meridiandata.io
+100156,5225,rule_google_ads_campaign_name_prefix_matches_allowed_values,naming,Enabled,monthly,2024-12-07,ben.wolfe@marlowe.com,2026-09-28,,2024-12-27,noah.hughes@marlowe.com
+100157,5225,rule_pinterest_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2024-06-26,sam.reyes@marlowe.com,2026-09-29,,2024-06-29,pedro.gray@marlowe.com
+100158,5225,rule_facebook_campaign_status_is_not_limited_by_budget,pacing,Enabled,weekly,2024-06-25,tara.chen@marlowe.com,2026-06-03,Has 325 rows which exceeds the limit of 5000,2024-07-08,service_user_5225@meridiandata.io
+100159,5225,rule_linkedin_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,daily,2025-01-07,rosa.evans@marlowe.com,2026-07-31,Code: 241. DB::Exception: Memory limit exceeded,2025-01-14,anna.lopez@marlowe.com
+100160,5225,rule_snapchat_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2025-01-28,grace.adams@marlowe.com,2026-09-30,,2025-02-17,service_user_5225@meridiandata.io
+100161,5225,rule_bing_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-12-13,kate.patel@marlowe.com,2026-09-30,,2024-12-13,hugo.novak@marlowe.com
+100162,5225,rule_bing_campaign_is_at_or_above_1000_impressions,threshold,Enabled,monthly,2024-11-22,noah.moore@marlowe.com,2026-09-28,,2024-12-04,rosa.patel@marlowe.com
+100163,5225,rule_facebook_campaign_is_at_or_above_1000_impressions,threshold,Enabled,daily,2024-05-11,iris.kaur@marlowe.com,2026-09-30,,2024-05-12,service_user_5225@meridiandata.io
+100164,5225,rule_linkedin_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-04-18,ben.jensen@marlowe.com,2026-09-29,,2024-05-01,service_user_5225@meridiandata.io
+100165,5266,rule_snapchat_campaign_status_is_not_limited_by_budget,pacing,Enabled,weekly,2025-04-29,hugo.ito@ridgeway.com,2026-09-28,,2025-05-09,service_user_5266@meridiandata.io
+100166,5266,rule_facebook_spend_percentage_increased_by_25,pacing,Enabled,monthly,2024-07-07,noah.wolfe@ridgeway.com;dmitri.wolfe@meridiandata.io,2026-09-30,,2024-07-07,service_user_5266@meridiandata.io
+100167,5266,rule_tiktok_account_has_auto_tagging_enabled,compliance,Enabled,monthly,2024-06-16,carla.lopez@ridgeway.com,2026-09-29,,2024-06-20,service_user_5266@meridiandata.io
+100168,5266,rule_facebook_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2025-02-24,grace.chen@ridgeway.com,2026-05-26,Has 75 rows which exceeds the limit of 5000,2025-03-16,grace.chen@ridgeway.com
+100169,5266,rule_google_ads_campaign_contains_negative_keyword,compliance,Disabled,daily,2024-09-10,liam.brooks@ridgeway.com,2026-07-14,,2024-09-25,iris.brooks@ridgeway.com
+100170,5266,rule_snapchat_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-06-12,noah.kaur@ridgeway.com,2026-09-30,,2024-06-19,service_user_5266@meridiandata.io
+100171,5266,rule_bing_campaign_has_tracking_url_template,compliance,Disabled,daily,2024-04-25,pedro.novak@ridgeway.com,2026-05-21,,2024-05-12,rosa.brooks@ridgeway.com
+100172,5266,rule_google_ads_account_has_auto_tagging_enabled,compliance,Enabled,daily,2025-03-31,elena.lopez@ridgeway.com;hugo.gray@meridiandata.io,2026-09-28,,2025-04-15,tara.kaur@ridgeway.com
+100173,5266,rule_linkedin_campaign_name_prefix_matches_allowed_values,naming,Enabled,monthly,2024-05-20,tara.gray@ridgeway.com,2026-09-29,,2024-05-28,quinn.owens@ridgeway.com
+100174,5266,rule_facebook_campaign_present_in_utm,compliance,Enabled,daily,2025-02-04,liam.silva@ridgeway.com,2026-09-30,,2025-02-17,grace.fischer@ridgeway.com
+100175,5266,rule_google_ads_campaign_present_in_utm,compliance,Enabled,daily,2024-09-22,pedro.lopez@ridgeway.com;rosa.jensen@meridiandata.io,2026-09-29,,2024-09-22,service_user_5266@meridiandata.io
+100176,5266,rule_linkedin_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-10-13,maya.moore@ridgeway.com,2026-09-28,,2024-10-23,ben.moore@ridgeway.com
+100177,5266,rule_facebook_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2025-03-08,elena.novak@ridgeway.com,2026-09-28,,2025-03-11,service_user_5266@meridiandata.io
+100178,5266,rule_google_ads_campaign_is_at_or_above_1000_impressions,threshold,Enabled,daily,2024-07-14,dmitri.hughes@ridgeway.com,2026-09-30,,2024-07-23,hugo.owens@ridgeway.com
+100179,5266,rule_tiktok_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-04-15,quinn.novak@ridgeway.com;anna.patel@meridiandata.io,2026-09-28,,2024-04-17,quinn.adams@ridgeway.com
+100180,5266,rule_snapchat_campaign_has_tracking_url_template,compliance,Enabled,weekly,2024-12-14,frank.chen@ridgeway.com,2026-09-30,,2025-01-03,service_user_5266@meridiandata.io
+100181,5266,rule_google_ads_spend_percentage_increased_by_25,pacing,Enabled,weekly,2024-04-26,iris.silva@ridgeway.com,2026-09-28,,2024-04-28,olive.diaz@ridgeway.com
+100182,5266,rule_linkedin_campaign_has_tracking_url_template,compliance,Enabled,monthly,2024-05-02,carla.patel@ridgeway.com,2026-09-29,,2024-05-20,olive.brooks@ridgeway.com
+100183,5266,rule_facebook_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-07-13,dmitri.silva@ridgeway.com,2026-09-30,,2024-07-25,grace.patel@ridgeway.com
+100184,5266,rule_linkedin_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2024-12-20,ben.moore@ridgeway.com;liam.owens@meridiandata.io,2026-07-18,"Dataset is empty, no content to insert",2024-12-31,rosa.evans@ridgeway.com
+100185,5266,rule_google_ads_campaign_status_is_not_limited_by_budget,pacing,Enabled,weekly,2024-07-31,frank.ito@ridgeway.com,2026-09-30,,2024-08-18,service_user_5266@meridiandata.io
+100186,5266,rule_pinterest_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-04-22,ben.owens@ridgeway.com,2026-09-30,,2024-04-26,tara.kaur@ridgeway.com
+100187,5266,rule_snapchat_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-04-20,james.diaz@ridgeway.com,2026-03-30,Found at least 1 id with 321 duplicates,2024-05-05,frank.hughes@ridgeway.com
+100188,5266,rule_tiktok_campaign_has_tracking_url_template,compliance,Enabled,weekly,2025-02-28,quinn.hughes@ridgeway.com,2026-09-30,,2025-03-14,service_user_5266@meridiandata.io
+100189,5266,rule_facebook_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-04-19,quinn.jensen@ridgeway.com,2026-09-30,,2024-04-24,pedro.gray@ridgeway.com
+100190,5266,rule_tiktok_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-11-18,noah.fischer@ridgeway.com,2026-09-29,,2024-11-28,service_user_5266@meridiandata.io
+100191,5266,rule_bing_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-09-06,quinn.fischer@ridgeway.com,2026-09-30,,2024-09-16,service_user_5266@meridiandata.io
+100192,5266,rule_linkedin_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-12-23,hugo.jensen@ridgeway.com;elena.owens@meridiandata.io,2026-06-01,Code: 241. DB::Exception: Memory limit exceeded,2024-12-28,sam.patel@ridgeway.com
+100193,5266,rule_google_ads_campaign_status_is_not_limited_by_budget,pacing,Disabled,daily,2024-09-29,kate.evans@ridgeway.com,2026-03-24,,2024-10-02,dmitri.wolfe@ridgeway.com
+100194,5266,rule_snapchat_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2025-03-12,elena.lopez@ridgeway.com;noah.fischer@meridiandata.io,2026-05-26,Has 271 rows which exceeds the limit of 5000,2025-03-29,liam.jensen@ridgeway.com
+100195,5266,rule_linkedin_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2025-01-27,anna.kaur@ridgeway.com,2026-09-30,,2025-02-09,anna.diaz@ridgeway.com
+100196,5266,rule_google_ads_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2025-04-30,anna.hughes@ridgeway.com,2026-09-29,,2025-05-06,iris.jensen@ridgeway.com
+100197,5266,rule_google_ads_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-06-12,grace.ito@ridgeway.com,2026-09-30,,2024-06-23,hugo.lopez@ridgeway.com
+100198,5266,rule_linkedin_campaign_present_in_utm,compliance,Enabled,daily,2024-09-18,james.hughes@ridgeway.com;liam.silva@meridiandata.io,2026-09-28,,2024-09-28,service_user_5266@meridiandata.io
+100199,5266,rule_tiktok_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2024-07-24,pedro.novak@ridgeway.com,2026-09-30,,2024-08-06,maya.patel@ridgeway.com
+100200,5266,rule_linkedin_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-02-09,noah.turner@ridgeway.com,2026-05-02,Code: 60. DB::Exception: Table does not exist,2025-02-16,service_user_5266@meridiandata.io
+100201,5266,rule_pinterest_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-05-23,kate.ito@ridgeway.com,2026-09-29,,2024-06-09,frank.novak@ridgeway.com
+100202,5266,rule_snapchat_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-05-09,anna.moore@ridgeway.com,2026-09-30,,2024-05-18,hugo.evans@ridgeway.com
+100203,5266,rule_facebook_campaign_present_in_utm,compliance,Enabled,daily,2025-03-15,noah.gray@ridgeway.com,2026-09-28,,2025-03-20,rosa.ito@ridgeway.com
+100204,5266,rule_google_ads_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-12-14,maya.silva@ridgeway.com;quinn.wolfe@meridiandata.io,2026-09-28,,2024-12-26,service_user_5266@meridiandata.io
+100205,5266,rule_facebook_campaign_is_at_or_above_1000_impressions,threshold,Enabled,daily,2024-12-07,dmitri.adams@ridgeway.com,2026-09-29,,2024-12-13,service_user_5266@meridiandata.io
+100206,5266,rule_linkedin_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-06-03,hugo.turner@ridgeway.com,2026-09-28,,2024-06-17,noah.silva@ridgeway.com
+100207,5266,rule_bing_campaign_contains_negative_keyword,compliance,Enabled,daily,2025-01-25,carla.turner@ridgeway.com,2026-09-30,,2025-01-26,maya.lopez@ridgeway.com
+100208,5266,rule_pinterest_campaign_has_tracking_url_template,compliance,Enabled,monthly,2024-12-06,sam.ito@ridgeway.com;anna.diaz@meridiandata.io,2026-03-21,Has 559 rows which exceeds the limit of 5000,2024-12-18,service_user_5266@meridiandata.io
+100209,5266,rule_pinterest_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2025-05-01,iris.diaz@ridgeway.com,2026-09-29,,2025-05-09,hugo.reyes@ridgeway.com
+100210,5266,rule_bing_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2024-09-17,james.owens@ridgeway.com,2026-09-30,,2024-09-25,kate.hughes@ridgeway.com
+100211,5266,rule_bing_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-11-17,anna.diaz@ridgeway.com,2026-04-07,Code: 60. DB::Exception: Table does not exist,2024-11-27,hugo.gray@ridgeway.com
+100212,5266,rule_tiktok_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-04-11,quinn.gray@ridgeway.com;liam.jensen@meridiandata.io,2026-09-28,,2025-04-30,service_user_5266@meridiandata.io
+100213,5266,rule_google_ads_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-04-13,tara.silva@ridgeway.com,2026-09-29,,2024-04-19,service_user_5266@meridiandata.io
+100214,5266,rule_linkedin_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2025-04-08,noah.fischer@ridgeway.com,2026-09-30,,2025-04-14,service_user_5266@meridiandata.io
+100215,5266,rule_snapchat_account_has_auto_tagging_enabled,compliance,Enabled,daily,2025-02-11,anna.fischer@ridgeway.com,2026-04-13,Configuration invalid: field not queryable,2025-02-16,liam.patel@ridgeway.com
+100216,5266,rule_bing_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2024-08-25,kate.hughes@ridgeway.com,2026-09-29,,2024-09-11,service_user_5266@meridiandata.io
+100217,5266,rule_facebook_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,daily,2025-04-07,james.silva@ridgeway.com,2026-05-16,Has 337 rows which exceeds the limit of 5000,2025-04-15,frank.wolfe@ridgeway.com
+100218,5266,rule_snapchat_campaign_is_at_or_above_0_1_ctr,threshold,Disabled,daily,2025-03-12,tara.wolfe@ridgeway.com,2026-02-13,,2025-03-17,olive.hughes@ridgeway.com
+100219,5266,rule_snapchat_campaign_present_in_utm,compliance,Enabled,daily,2025-04-29,maya.moore@ridgeway.com,2026-09-28,,2025-05-02,maya.chen@ridgeway.com
+100220,5266,rule_pinterest_account_has_auto_tagging_enabled,compliance,Enabled,daily,2025-02-06,dmitri.diaz@ridgeway.com,2026-09-30,,2025-02-16,tara.hughes@ridgeway.com
+100221,5266,rule_pinterest_campaign_present_in_utm,compliance,Enabled,daily,2024-06-23,tara.brooks@ridgeway.com;maya.owens@meridiandata.io,2026-09-30,,2024-07-03,elena.chen@ridgeway.com
+100222,5266,rule_tiktok_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-07-24,frank.gray@ridgeway.com,2026-09-30,,2024-08-10,dmitri.kaur@ridgeway.com
+100223,5266,rule_bing_campaign_contains_negative_keyword,compliance,Disabled,daily,2024-11-13,olive.fischer@ridgeway.com,2026-01-13,,2024-11-24,pedro.ito@ridgeway.com
+100224,5266,rule_tiktok_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-05-23,carla.wolfe@ridgeway.com,2026-09-28,,2024-06-08,service_user_5266@meridiandata.io
+100225,5266,rule_tiktok_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-08-24,liam.novak@ridgeway.com,2026-09-30,,2024-09-11,service_user_5266@meridiandata.io
+100226,5266,rule_snapchat_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-11-06,elena.fischer@ridgeway.com;olive.lopez@meridiandata.io,2026-09-29,,2024-11-08,liam.evans@ridgeway.com
+100227,5266,rule_google_ads_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-05-25,dmitri.evans@ridgeway.com,2026-09-28,,2024-06-02,grace.fischer@ridgeway.com
+100228,5266,rule_snapchat_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,weekly,2024-11-23,rosa.brooks@ridgeway.com,2026-09-28,,2024-12-12,ben.moore@ridgeway.com
+100229,5266,rule_google_ads_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2025-01-29,iris.evans@ridgeway.com,2026-09-28,,2025-02-10,service_user_5266@meridiandata.io
+100230,5266,rule_linkedin_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2025-03-09,carla.gray@ridgeway.com,2026-08-09,Code: 241. DB::Exception: Memory limit exceeded,2025-03-09,service_user_5266@meridiandata.io
+100231,5266,rule_linkedin_spend_percentage_increased_by_25,pacing,Enabled,weekly,2024-04-13,kate.reyes@ridgeway.com,2026-09-30,,2024-05-02,quinn.owens@ridgeway.com
+100232,5266,rule_snapchat_campaign_is_at_or_above_1000_impressions,threshold,Enabled,daily,2025-01-12,sam.evans@ridgeway.com,2026-09-30,,2025-01-23,service_user_5266@meridiandata.io
+100233,5266,rule_facebook_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2024-04-24,sam.evans@ridgeway.com,2026-08-13,Code: 60. DB::Exception: Table does not exist,2024-05-10,service_user_5266@meridiandata.io
+100234,5266,rule_linkedin_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-10-27,rosa.chen@ridgeway.com,2026-09-29,,2024-11-06,anna.gray@ridgeway.com
+100235,5266,rule_pinterest_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-06-04,tara.owens@ridgeway.com,2026-09-28,,2024-06-24,elena.evans@ridgeway.com
+100236,5266,rule_snapchat_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-10-12,james.reyes@ridgeway.com;sam.gray@meridiandata.io,2026-08-28,Found at least 1 id with 859 duplicates,2024-10-31,frank.ito@ridgeway.com
+100237,5266,rule_snapchat_campaign_status_is_not_limited_by_budget,pacing,Enabled,weekly,2024-06-15,dmitri.fischer@ridgeway.com,2026-08-18,Configuration invalid: field not queryable,2024-06-24,service_user_5266@meridiandata.io
+100238,5266,rule_google_ads_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-02-18,kate.jensen@ridgeway.com;maya.diaz@meridiandata.io,2026-06-02,Code: 241. DB::Exception: Memory limit exceeded,2025-02-24,noah.novak@ridgeway.com
+100239,5266,rule_snapchat_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-01-24,anna.chen@ridgeway.com;sam.adams@meridiandata.io,2026-09-30,,2025-02-09,olive.adams@ridgeway.com
+100240,5266,rule_tiktok_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-11-07,quinn.hughes@ridgeway.com,2026-09-30,,2024-11-19,service_user_5266@meridiandata.io
+100241,5266,rule_google_ads_campaign_status_is_not_limited_by_budget,pacing,Enabled,weekly,2024-05-10,pedro.fischer@ridgeway.com,2026-03-24,Code: 60. DB::Exception: Table does not exist,2024-05-27,noah.jensen@ridgeway.com
+100242,5266,rule_tiktok_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2024-09-02,james.owens@ridgeway.com,2026-09-28,,2024-09-04,service_user_5266@meridiandata.io
+100243,5266,rule_pinterest_campaign_status_is_not_limited_by_budget,pacing,Enabled,monthly,2024-08-23,maya.kaur@ridgeway.com,2026-09-29,,2024-08-28,service_user_5266@meridiandata.io
+100244,5266,rule_bing_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,weekly,2024-04-18,liam.kaur@ridgeway.com;sam.brooks@meridiandata.io,2026-05-30,Code: 241. DB::Exception: Memory limit exceeded,2024-05-06,dmitri.gray@ridgeway.com
+100245,5266,rule_pinterest_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2024-05-09,iris.silva@ridgeway.com,2026-09-30,,2024-05-15,service_user_5266@meridiandata.io
+100246,5266,rule_facebook_campaign_contains_negative_keyword,compliance,Enabled,monthly,2024-11-26,liam.wolfe@ridgeway.com,2026-09-28,,2024-12-11,service_user_5266@meridiandata.io
+100247,5266,rule_snapchat_campaign_present_in_utm,compliance,Enabled,daily,2024-07-14,iris.hughes@ridgeway.com;noah.lopez@meridiandata.io,2026-06-06,Found at least 1 id with 840 duplicates,2024-08-01,liam.ito@ridgeway.com
+100248,5266,rule_snapchat_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-06-23,quinn.chen@ridgeway.com,2026-09-30,,2024-07-09,service_user_5266@meridiandata.io
+100249,5266,rule_linkedin_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-04-11,kate.jensen@ridgeway.com,2026-09-28,,2024-04-24,service_user_5266@meridiandata.io
+100250,5266,rule_pinterest_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-06-30,quinn.diaz@ridgeway.com,2026-09-29,,2024-07-15,frank.lopez@ridgeway.com
+100251,5266,rule_pinterest_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-06-20,hugo.lopez@ridgeway.com;grace.hughes@meridiandata.io,2026-02-26,Code: 60. DB::Exception: Table does not exist,2024-07-09,service_user_5266@meridiandata.io
+100252,5266,rule_tiktok_campaign_status_is_not_limited_by_budget,pacing,Disabled,daily,2025-03-18,maya.owens@ridgeway.com,2026-04-14,,2025-04-01,frank.brooks@ridgeway.com
+100253,5266,rule_bing_campaign_contains_negative_keyword,compliance,Enabled,weekly,2024-10-07,quinn.diaz@ridgeway.com,2026-09-30,,2024-10-16,rosa.jensen@ridgeway.com
+100254,5266,rule_tiktok_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2024-10-26,olive.turner@ridgeway.com,2026-09-29,,2024-11-09,service_user_5266@meridiandata.io
+100255,5266,rule_google_ads_campaign_present_in_utm,compliance,Enabled,daily,2024-09-27,maya.diaz@ridgeway.com,2026-09-30,,2024-10-02,service_user_5266@meridiandata.io
+100256,5266,rule_google_ads_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2025-02-08,olive.hughes@ridgeway.com,2026-09-30,,2025-02-26,olive.brooks@ridgeway.com
+100257,5266,rule_tiktok_campaign_is_at_or_less_10_avg_cpc,threshold,Enabled,daily,2025-01-19,elena.moore@ridgeway.com,2026-06-04,Code: 60. DB::Exception: Table does not exist,2025-01-27,service_user_5266@meridiandata.io
+100258,5266,rule_linkedin_campaign_name_contains_region_code_matching_allowed_values,naming,Disabled,daily,2025-04-19,dmitri.patel@ridgeway.com,2025-12-12,,2025-05-03,service_user_5266@meridiandata.io
+100259,5266,rule_bing_spend_percentage_increased_by_25,pacing,Enabled,weekly,2025-02-15,quinn.hughes@ridgeway.com,2026-09-30,,2025-03-06,quinn.ito@ridgeway.com
+100260,5266,rule_tiktok_campaign_is_at_or_above_1000_impressions,threshold,Enabled,weekly,2024-08-01,iris.adams@ridgeway.com,2026-09-28,,2024-08-11,service_user_5266@meridiandata.io
+100261,5266,rule_pinterest_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-06-10,tara.brooks@ridgeway.com,2026-09-29,,2024-06-30,dmitri.gray@ridgeway.com
+100262,5266,rule_pinterest_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-09-03,maya.gray@ridgeway.com,2026-06-28,Configuration invalid: field not queryable,2024-09-08,rosa.novak@ridgeway.com
+100263,5266,rule_linkedin_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-05-11,dmitri.novak@ridgeway.com,2026-09-30,,2024-05-22,service_user_5266@meridiandata.io
+100264,5266,rule_linkedin_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-11-15,dmitri.chen@ridgeway.com,2026-05-03,"Dataset is empty, no content to insert",2024-12-01,service_user_5266@meridiandata.io
+100265,5266,rule_pinterest_campaign_present_in_utm,compliance,Enabled,daily,2024-11-22,maya.reyes@ridgeway.com,2026-09-28,,2024-12-04,frank.reyes@ridgeway.com
+100269,5296,rule_linkedin_campaign_status_is_not_limited_by_budget,pacing,Enabled,weekly,2024-12-07,ben.kaur@lumen.com,2026-09-30,,2024-12-13,service_user_5296@meridiandata.io
+100271,5296,rule_tiktok_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-08-25,dmitri.wolfe@lumen.com,2026-05-20,"Dataset is empty, no content to insert",2024-08-31,service_user_5296@meridiandata.io
+100272,5296,rule_pinterest_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2025-03-02,sam.diaz@lumen.com;anna.hughes@meridiandata.io,2026-09-30,,2025-03-18,rosa.owens@lumen.com
+100273,5296,rule_pinterest_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-10-25,james.brooks@lumen.com,2026-09-29,,2024-11-07,maya.jensen@lumen.com
+100274,5296,rule_bing_campaign_is_at_or_less_10_avg_cpc,threshold,Enabled,daily,2025-03-07,dmitri.owens@lumen.com,2026-07-05,Configuration invalid: field not queryable,2025-03-14,service_user_5296@meridiandata.io
+100276,5296,rule_facebook_campaign_is_at_or_above_1_vcr,threshold,Enabled,weekly,2024-05-23,liam.kaur@lumen.com,2026-09-28,,2024-05-31,service_user_5296@meridiandata.io
+100277,5296,rule_google_ads_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-08-12,james.ito@lumen.com,2026-09-30,,2024-08-25,service_user_5296@meridiandata.io
+100278,5296,rule_bing_campaign_contains_negative_keyword,compliance,Enabled,daily,2025-04-27,james.wolfe@lumen.com,2026-09-29,,2025-05-05,olive.chen@lumen.com
+100281,5296,rule_google_ads_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-04-09,dmitri.lopez@lumen.com,2026-09-29,,2025-04-09,service_user_5296@meridiandata.io
+100283,5296,rule_snapchat_account_has_auto_tagging_enabled,compliance,Disabled,daily,2024-04-21,hugo.kaur@lumen.com,2026-07-29,,2024-05-06,maya.gray@lumen.com
+100284,5296,rule_bing_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-12-02,sam.patel@lumen.com,2026-09-28,,2024-12-20,carla.patel@lumen.com
+100286,5296,rule_facebook_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-07-11,frank.reyes@lumen.com,2026-09-28,,2024-07-15,elena.novak@lumen.com
+100287,5296,rule_linkedin_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2025-04-11,anna.reyes@lumen.com,2026-09-30,,2025-04-29,service_user_5296@meridiandata.io
+100288,5296,rule_facebook_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2025-02-12,elena.turner@lumen.com;rosa.wolfe@meridiandata.io,2026-07-27,Configuration invalid: field not queryable,2025-02-24,sam.lopez@lumen.com
+100290,5296,rule_pinterest_campaign_is_at_or_less_10_avg_cpc,threshold,Enabled,monthly,2024-05-01,frank.turner@lumen.com;anna.lopez@meridiandata.io,2026-09-30,,2024-05-15,maya.fischer@lumen.com
+100291,5296,rule_bing_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2024-11-24,quinn.patel@lumen.com;olive.hughes@meridiandata.io,2026-04-06,Found at least 1 id with 608 duplicates,2024-12-04,hugo.owens@lumen.com
+100293,5296,rule_facebook_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-09-08,pedro.adams@lumen.com;maya.jensen@meridiandata.io,2026-09-28,,2024-09-26,frank.owens@lumen.com
+100295,5296,rule_google_ads_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-08-20,sam.chen@lumen.com,2026-09-28,,2024-08-29,elena.hughes@lumen.com
+100296,5296,rule_pinterest_campaign_status_is_not_limited_by_budget,pacing,Disabled,daily,2024-11-28,anna.reyes@lumen.com,2026-08-26,,2024-11-29,kate.silva@lumen.com
+100298,5296,rule_facebook_spend_percentage_increased_by_25,pacing,Enabled,daily,2025-04-04,quinn.lopez@lumen.com;liam.patel@meridiandata.io,2026-04-08,Code: 60. DB::Exception: Table does not exist,2025-04-15,service_user_5296@meridiandata.io
+100300,5296,rule_pinterest_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2025-01-04,kate.novak@lumen.com,2026-09-29,,2025-01-23,service_user_5296@meridiandata.io
+100303,5296,rule_pinterest_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,weekly,2025-03-20,kate.jensen@lumen.com,2026-09-29,,2025-03-26,service_user_5296@meridiandata.io
+100304,5296,rule_facebook_campaign_contains_negative_keyword,compliance,Enabled,daily,2025-01-03,quinn.brooks@lumen.com,2026-06-24,Configuration invalid: field not queryable,2025-01-16,elena.lopez@lumen.com
+100305,5296,rule_tiktok_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-12-25,rosa.owens@lumen.com,2026-09-28,,2024-12-26,kate.jensen@lumen.com
+100307,5296,rule_bing_campaign_status_is_not_limited_by_budget,pacing,Enabled,weekly,2025-04-03,ben.ito@lumen.com,2026-09-28,,2025-04-14,service_user_5296@meridiandata.io
+100308,5296,rule_linkedin_campaign_present_in_utm,compliance,Enabled,daily,2024-11-28,noah.gray@lumen.com,2026-09-28,,2024-12-11,service_user_5296@meridiandata.io
+100310,5296,rule_pinterest_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2024-07-09,maya.wolfe@lumen.com,2026-04-04,Has 501 rows which exceeds the limit of 5000,2024-07-14,anna.hughes@lumen.com
+100312,5296,rule_google_ads_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2025-02-06,noah.jensen@lumen.com,2026-09-29,,2025-02-22,pedro.brooks@lumen.com
+100314,5296,rule_bing_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2025-04-03,kate.diaz@lumen.com,2026-02-17,"Dataset is empty, no content to insert",2025-04-09,liam.adams@lumen.com
+100315,5296,rule_snapchat_spend_percentage_increased_by_25,pacing,Enabled,daily,2025-03-31,liam.hughes@lumen.com;tara.kaur@meridiandata.io,2026-09-28,,2025-04-13,elena.hughes@lumen.com
+100320,5296,rule_facebook_spend_percentage_increased_by_25,pacing,Enabled,daily,2025-02-08,olive.kaur@lumen.com,2026-09-28,,2025-02-26,service_user_5296@meridiandata.io
+100323,5296,rule_bing_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-09-21,pedro.moore@lumen.com;rosa.novak@meridiandata.io,2026-09-29,,2024-10-11,tara.wolfe@lumen.com
+100325,5296,rule_linkedin_campaign_status_is_not_limited_by_budget,pacing,Disabled,daily,2024-07-21,carla.jensen@lumen.com,2025-12-13,,2024-08-03,tara.lopez@lumen.com
+100327,5296,rule_pinterest_spend_percentage_increased_by_25,pacing,Enabled,daily,2025-03-19,olive.patel@lumen.com,2026-04-24,Has 401 rows which exceeds the limit of 5000,2025-03-25,noah.reyes@lumen.com
+100328,5296,rule_pinterest_campaign_has_tracking_url_template,compliance,Enabled,weekly,2024-12-04,maya.kaur@lumen.com;grace.kaur@meridiandata.io,2026-04-19,"Dataset is empty, no content to insert",2024-12-19,noah.lopez@lumen.com
+100329,5296,rule_facebook_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-08-15,olive.gray@lumen.com,2026-09-30,,2024-08-19,service_user_5296@meridiandata.io
+100330,5296,rule_pinterest_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-11-09,elena.hughes@lumen.com,2026-09-28,,2024-11-13,sam.turner@lumen.com
+100332,5296,rule_facebook_campaign_present_in_utm,compliance,Enabled,daily,2024-07-28,olive.reyes@lumen.com,2026-02-22,Code: 241. DB::Exception: Memory limit exceeded,2024-08-01,service_user_5296@meridiandata.io
+100333,5296,rule_facebook_campaign_present_in_utm,compliance,Enabled,daily,2024-11-26,pedro.evans@lumen.com,2026-08-30,Code: 60. DB::Exception: Table does not exist,2024-12-05,service_user_5296@meridiandata.io
+100335,5296,rule_facebook_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-09-20,anna.ito@lumen.com,2026-09-29,,2024-10-09,noah.turner@lumen.com
+100336,5296,rule_facebook_campaign_is_at_or_less_10_avg_cpc,threshold,Enabled,daily,2024-08-26,ben.owens@lumen.com,2026-09-30,,2024-08-28,elena.ito@lumen.com
+100337,5296,rule_snapchat_campaign_present_in_utm,compliance,Enabled,daily,2024-12-14,maya.hughes@lumen.com;grace.lopez@meridiandata.io,2026-09-29,,2024-12-31,service_user_5296@meridiandata.io
+100338,5296,rule_tiktok_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2025-03-17,noah.hughes@lumen.com;carla.kaur@meridiandata.io,2026-09-29,,2025-03-31,hugo.patel@lumen.com
+100339,5296,rule_facebook_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-05-10,elena.evans@lumen.com,2026-09-29,,2024-05-24,service_user_5296@meridiandata.io
+100341,5296,rule_bing_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-05-15,elena.kaur@lumen.com,2026-09-30,,2024-05-22,service_user_5296@meridiandata.io
+100343,5296,rule_snapchat_campaign_present_in_utm,compliance,Enabled,weekly,2024-07-19,frank.diaz@lumen.com,2026-09-30,,2024-07-25,olive.reyes@lumen.com
+100344,5296,rule_google_ads_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-05-24,rosa.lopez@lumen.com;rosa.hughes@meridiandata.io,2026-09-30,,2024-05-26,dmitri.fischer@lumen.com
+100346,5296,rule_tiktok_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2025-04-16,liam.fischer@lumen.com,2026-09-28,,2025-05-04,service_user_5296@meridiandata.io
+100348,5296,rule_linkedin_account_has_auto_tagging_enabled,compliance,Enabled,daily,2025-02-26,liam.adams@lumen.com;elena.moore@meridiandata.io,2026-09-30,,2025-03-01,sam.chen@lumen.com
+100349,5296,rule_pinterest_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2024-10-03,liam.novak@lumen.com,2026-09-29,,2024-10-18,hugo.wolfe@lumen.com
+100350,5296,rule_facebook_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-04-11,dmitri.turner@lumen.com,2026-07-30,"Dataset is empty, no content to insert",2024-04-22,service_user_5296@meridiandata.io
+100351,5296,rule_google_ads_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-10-30,sam.jensen@lumen.com,2026-09-29,,2024-11-08,service_user_5296@meridiandata.io
+100354,5296,rule_snapchat_account_has_auto_tagging_enabled,compliance,Enabled,daily,2025-02-24,kate.owens@lumen.com,2026-09-29,,2025-02-28,quinn.ito@lumen.com
+100355,5296,rule_facebook_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,monthly,2025-03-22,maya.evans@lumen.com;hugo.turner@meridiandata.io,2026-09-28,,2025-04-04,hugo.owens@lumen.com
+100356,5296,rule_snapchat_campaign_contains_negative_keyword,compliance,Enabled,monthly,2024-09-26,elena.gray@lumen.com;olive.owens@meridiandata.io,2026-08-17,Code: 241. DB::Exception: Memory limit exceeded,2024-10-04,maya.brooks@lumen.com
+100358,5334,rule_linkedin_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2025-01-27,grace.chen@meridiandata.io,2026-09-29,,2025-02-09,noah.ito@westbrook.com
+100359,5334,rule_bing_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,monthly,2025-03-21,elena.hughes@meridiandata.io,2026-09-29,,2025-03-23,iris.diaz@westbrook.com
+100360,5334,rule_google_ads_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-04-27,,2026-09-28,,2024-05-11,dmitri.brooks@westbrook.com
+100361,5334,rule_facebook_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2024-04-22,maya.patel@meridiandata.io,2026-09-28,,2024-05-08,service_user_5334@meridiandata.io
+100362,5334,rule_snapchat_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,weekly,2024-09-10,pedro.turner@meridiandata.io,2026-09-29,,2024-09-11,hugo.reyes@westbrook.com
+100363,5334,rule_snapchat_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-01-29,,2026-03-11,Code: 60. DB::Exception: Table does not exist,2025-02-17,service_user_5334@meridiandata.io
+100364,5334,rule_tiktok_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-03-28,,2026-09-28,,2025-04-10,service_user_5334@meridiandata.io
+100365,5334,rule_google_ads_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-07-17,tara.chen@meridiandata.io,2026-09-28,,2024-08-01,james.ito@westbrook.com
+100366,5334,rule_google_ads_campaign_status_is_not_limited_by_budget,pacing,Disabled,daily,2024-09-05,kate.patel@meridiandata.io,2026-07-17,,2024-09-08,service_user_5334@meridiandata.io
+100367,5334,rule_pinterest_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-08-21,dmitri.novak@meridiandata.io,2026-09-30,,2024-08-29,service_user_5334@meridiandata.io
+100368,5334,rule_google_ads_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-08-03,sam.patel@meridiandata.io,2026-09-28,,2024-08-06,ben.moore@westbrook.com
+100369,5334,rule_google_ads_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-06-25,iris.fischer@meridiandata.io,2026-09-28,,2024-07-07,service_user_5334@meridiandata.io
+100370,5334,rule_bing_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-12-04,tara.lopez@meridiandata.io,2026-05-11,"Dataset is empty, no content to insert",2024-12-10,service_user_5334@meridiandata.io
+100371,5378,rule_tiktok_campaign_is_at_or_less_10_avg_cpc,threshold,Enabled,daily,2024-10-13,grace.novak@juniper.com,2026-09-30,,2024-10-26,olive.patel@juniper.com
+100372,5378,rule_facebook_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-08-16,liam.hughes@juniper.com,2026-09-29,,2024-09-02,kate.jensen@juniper.com
+100373,5378,rule_facebook_campaign_contains_negative_keyword,compliance,Enabled,daily,2025-03-14,grace.owens@juniper.com,2026-05-24,Configuration invalid: field not queryable,2025-03-17,service_user_5378@meridiandata.io
+100374,5378,rule_linkedin_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-10-28,iris.adams@juniper.com;iris.jensen@meridiandata.io,2026-09-29,,2024-10-29,service_user_5378@meridiandata.io
+100375,5378,rule_linkedin_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-06-28,liam.brooks@juniper.com,2026-09-30,,2024-06-28,service_user_5378@meridiandata.io
+100376,5378,rule_pinterest_campaign_present_in_utm,compliance,Enabled,daily,2024-11-28,quinn.brooks@juniper.com,2026-05-16,Code: 60. DB::Exception: Table does not exist,2024-12-02,anna.evans@juniper.com
+100377,5407,rule_linkedin_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-08-22,tara.silva@ridgeway.com;elena.patel@meridiandata.io,2026-09-29,,2024-08-31,service_user_5407@meridiandata.io
+100378,5407,rule_facebook_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-08-20,noah.wolfe@ridgeway.com;james.gray@meridiandata.io,2026-09-29,,2024-09-05,service_user_5407@meridiandata.io
+100379,5407,rule_google_ads_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-10-20,kate.diaz@ridgeway.com,2026-09-30,,2024-11-06,service_user_5407@meridiandata.io
+100380,5407,rule_tiktok_account_has_auto_tagging_enabled,compliance,Enabled,daily,2025-01-15,liam.silva@ridgeway.com,2026-09-29,,2025-01-27,service_user_5407@meridiandata.io
+100381,5407,rule_linkedin_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-06-22,rosa.patel@ridgeway.com,2026-09-28,,2024-07-12,service_user_5407@meridiandata.io
+100382,5407,rule_tiktok_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2024-10-10,iris.hughes@ridgeway.com,2026-09-29,,2024-10-20,service_user_5407@meridiandata.io
+100383,5407,rule_pinterest_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-06-13,maya.novak@ridgeway.com,2026-09-29,,2024-06-13,service_user_5407@meridiandata.io
+100384,5407,rule_facebook_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,daily,2025-03-16,kate.adams@ridgeway.com,2026-08-18,Configuration invalid: field not queryable,2025-03-20,service_user_5407@meridiandata.io
+100385,5407,rule_linkedin_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2024-05-20,elena.wolfe@ridgeway.com,2026-09-28,,2024-05-22,service_user_5407@meridiandata.io
+100386,5407,rule_tiktok_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-04-03,elena.diaz@ridgeway.com,2026-09-29,,2025-04-19,ben.moore@ridgeway.com
+100387,5407,rule_facebook_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-05-22,tara.brooks@ridgeway.com;dmitri.kaur@meridiandata.io,2026-04-22,Configuration invalid: field not queryable,2024-05-29,dmitri.ito@ridgeway.com
+100388,5407,rule_google_ads_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2025-02-26,james.fischer@ridgeway.com,2026-04-18,Has 276 rows which exceeds the limit of 5000,2025-02-28,james.jensen@ridgeway.com
+100389,5407,rule_google_ads_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2024-07-10,carla.kaur@ridgeway.com,2026-09-29,,2024-07-25,service_user_5407@meridiandata.io
+100390,5407,rule_facebook_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-09-20,ben.brooks@ridgeway.com,2026-09-30,,2024-10-08,service_user_5407@meridiandata.io
+100391,5407,rule_bing_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2025-02-05,grace.brooks@ridgeway.com,2026-04-13,Found at least 1 id with 37 duplicates,2025-02-16,service_user_5407@meridiandata.io
+100392,5449,rule_facebook_spend_percentage_increased_by_25,pacing,Disabled,daily,2025-02-17,elena.patel@anchor.com;carla.jensen@meridiandata.io,2026-04-22,,2025-02-24,sam.gray@anchor.com
+100394,5449,rule_pinterest_campaign_is_at_or_above_1000_impressions,threshold,Enabled,daily,2024-07-18,liam.owens@anchor.com;carla.novak@meridiandata.io,2026-08-17,Code: 241. DB::Exception: Memory limit exceeded,2024-08-07,rosa.adams@anchor.com
+100395,5449,rule_snapchat_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-05-08,dmitri.gray@anchor.com;elena.turner@meridiandata.io,2026-09-29,,2024-05-18,service_user_5449@meridiandata.io
+100396,5449,rule_tiktok_campaign_present_in_utm,compliance,Enabled,daily,2024-05-13,james.fischer@anchor.com;elena.jensen@meridiandata.io,2026-02-24,Code: 60. DB::Exception: Table does not exist,2024-05-21,rosa.gray@anchor.com
+100400,5449,rule_bing_campaign_present_in_utm,compliance,Enabled,daily,2024-06-08,anna.wolfe@anchor.com,2026-04-22,Code: 60. DB::Exception: Table does not exist,2024-06-21,service_user_5449@meridiandata.io
+100401,5449,rule_google_ads_campaign_is_at_or_less_10_avg_cpc,threshold,Enabled,daily,2024-06-19,sam.evans@anchor.com;liam.adams@meridiandata.io,2026-09-29,,2024-07-03,maya.adams@anchor.com
+100402,5486,rule_linkedin_campaign_is_at_or_above_1000_impressions,threshold,Enabled,daily,2024-07-28,quinn.chen@vertex.com;grace.turner@meridiandata.io,2026-09-28,,2024-08-12,service_user_5486@meridiandata.io
+100403,5486,rule_bing_campaign_contains_negative_keyword,compliance,Enabled,weekly,2024-07-09,iris.wolfe@vertex.com,2026-09-30,,2024-07-23,ben.evans@vertex.com
+100404,5486,rule_snapchat_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-07-18,dmitri.chen@vertex.com,2026-09-29,,2024-07-28,james.lopez@vertex.com
+100405,5486,rule_google_ads_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-11-27,dmitri.moore@vertex.com,2026-09-28,,2024-12-02,frank.silva@vertex.com
+100406,5486,rule_pinterest_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2025-01-29,olive.hughes@vertex.com;frank.ito@meridiandata.io,2026-09-28,,2025-02-11,carla.novak@vertex.com
+100407,5486,rule_bing_campaign_is_at_or_above_1_vcr,threshold,Disabled,daily,2024-07-12,ben.owens@vertex.com,2026-03-12,,2024-07-16,service_user_5486@meridiandata.io
+100408,5486,rule_tiktok_campaign_name_contains_entity_matching_allowed_values,naming,Disabled,daily,2025-02-19,hugo.novak@vertex.com;quinn.brooks@meridiandata.io,2026-07-28,,2025-03-02,service_user_5486@meridiandata.io
+100409,5486,rule_google_ads_account_has_auto_tagging_enabled,compliance,Disabled,daily,2024-04-20,olive.silva@vertex.com,2026-02-10,,2024-05-02,service_user_5486@meridiandata.io
+100410,5486,rule_pinterest_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-10-24,kate.evans@vertex.com,2026-09-28,,2024-10-28,grace.owens@vertex.com
+100411,5486,rule_tiktok_campaign_status_is_not_limited_by_budget,pacing,Enabled,weekly,2024-09-10,rosa.fischer@vertex.com,2026-09-29,,2024-09-10,service_user_5486@meridiandata.io
+100412,5486,rule_facebook_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2024-11-29,kate.wolfe@vertex.com,2026-09-28,,2024-12-16,hugo.owens@vertex.com
+100413,5486,rule_google_ads_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-08-31,sam.jensen@vertex.com,2026-09-29,,2024-09-09,anna.reyes@vertex.com
+100414,5486,rule_linkedin_campaign_present_in_utm,compliance,Enabled,monthly,2024-09-12,noah.hughes@vertex.com;carla.adams@meridiandata.io,2026-09-29,,2024-09-16,service_user_5486@meridiandata.io
+100415,5486,rule_bing_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-08-30,olive.wolfe@vertex.com;pedro.kaur@meridiandata.io,2026-09-28,,2024-09-10,service_user_5486@meridiandata.io
+100416,5486,rule_google_ads_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-10-20,elena.brooks@vertex.com,2026-09-28,,2024-10-20,service_user_5486@meridiandata.io
+100417,5486,rule_facebook_campaign_contains_negative_keyword,compliance,Enabled,monthly,2024-05-30,carla.novak@vertex.com,2026-09-30,,2024-06-02,service_user_5486@meridiandata.io
+100418,5486,rule_facebook_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2024-04-24,dmitri.silva@vertex.com,2026-09-29,,2024-05-01,sam.kaur@vertex.com
+100419,5486,rule_pinterest_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-06-07,james.fischer@vertex.com,2026-03-02,"Dataset is empty, no content to insert",2024-06-20,iris.lopez@vertex.com
+100420,5486,rule_google_ads_campaign_contains_negative_keyword,compliance,Disabled,monthly,2024-05-30,pedro.adams@vertex.com,2026-08-26,,2024-06-03,ben.novak@vertex.com
+100421,5486,rule_snapchat_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2024-08-04,sam.ito@vertex.com;maya.fischer@meridiandata.io,2026-06-13,Has 675 rows which exceeds the limit of 5000,2024-08-10,service_user_5486@meridiandata.io
+100422,5486,rule_bing_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,weekly,2024-10-23,pedro.owens@vertex.com,2026-09-30,,2024-11-02,liam.silva@vertex.com
+100423,5486,rule_google_ads_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-12-13,olive.adams@vertex.com,2026-09-28,,2024-12-13,tara.fischer@vertex.com
+100424,5520,rule_google_ads_campaign_present_in_utm,compliance,Disabled,daily,2024-11-30,iris.jensen@north.com;james.wolfe@meridiandata.io,2026-07-01,,2024-12-09,service_user_5520@meridiandata.io
+100425,5520,rule_google_ads_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,daily,2024-04-11,maya.hughes@north.com,2026-09-29,,2024-04-23,tara.chen@north.com
+100426,5520,rule_google_ads_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-12-16,olive.patel@north.com,2026-09-28,,2024-12-30,hugo.lopez@north.com
+100427,5520,rule_linkedin_account_has_auto_tagging_enabled,compliance,Enabled,daily,2025-01-21,maya.novak@north.com;hugo.ito@meridiandata.io,2026-07-19,Found at least 1 id with 158 duplicates,2025-02-04,service_user_5520@meridiandata.io
+100428,5520,rule_pinterest_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2025-02-19,tara.evans@north.com,2026-09-29,,2025-03-10,noah.novak@north.com
+100430,5560,rule_tiktok_campaign_is_at_or_above_1000_impressions,threshold,Enabled,daily,2024-12-16,anna.evans@meridiandata.io,2026-09-29,,2024-12-18,service_user_5560@meridiandata.io
+100443,5560,rule_bing_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2024-09-08,grace.wolfe@meridiandata.io,2026-09-28,,2024-09-10,grace.novak@belmont.com
+100445,5560,rule_facebook_spend_percentage_increased_by_25,pacing,Disabled,daily,2024-05-11,rosa.patel@meridiandata.io,2026-03-10,,2024-05-17,noah.diaz@belmont.com
+100448,5597,rule_tiktok_campaign_present_in_utm,compliance,Enabled,weekly,2024-05-24,ben.patel@prospect.com;elena.patel@meridiandata.io,2026-09-30,,2024-06-05,service_user_5597@meridiandata.io
+100449,5597,rule_bing_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,monthly,2025-01-07,james.jensen@prospect.com,2026-09-28,,2025-01-24,tara.diaz@prospect.com
+100450,5597,rule_google_ads_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-09-18,olive.owens@prospect.com,2026-09-29,,2024-09-19,service_user_5597@meridiandata.io
+100451,5597,rule_bing_spend_percentage_increased_by_25,pacing,Disabled,daily,2024-06-28,hugo.chen@prospect.com,2026-06-12,,2024-07-01,carla.diaz@prospect.com
+100452,5597,rule_bing_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2025-01-12,tara.adams@prospect.com,2026-07-18,Has 297 rows which exceeds the limit of 5000,2025-01-17,liam.ito@prospect.com
+100453,5597,rule_snapchat_campaign_is_at_or_above_1000_impressions,threshold,Enabled,daily,2025-03-09,rosa.fischer@prospect.com,2026-04-05,Found at least 1 id with 669 duplicates,2025-03-13,anna.hughes@prospect.com
+100454,5597,rule_facebook_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-04-30,noah.wolfe@prospect.com,2026-09-28,,2024-05-20,hugo.turner@prospect.com
+100455,5597,rule_bing_campaign_present_in_utm,compliance,Enabled,daily,2025-04-29,rosa.evans@prospect.com;olive.lopez@meridiandata.io,2026-09-29,,2025-05-10,grace.silva@prospect.com
+100456,5597,rule_google_ads_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-05-03,ben.wolfe@prospect.com,2026-09-28,,2024-05-22,iris.patel@prospect.com
+100457,5597,rule_linkedin_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2025-02-04,noah.fischer@prospect.com,2026-09-29,,2025-02-10,rosa.adams@prospect.com
+100458,5597,rule_snapchat_campaign_is_at_or_above_1000_impressions,threshold,Enabled,daily,2024-08-13,iris.adams@prospect.com,2026-09-29,,2024-08-19,service_user_5597@meridiandata.io
+100459,5597,rule_pinterest_campaign_is_at_or_less_10_avg_cpc,threshold,Enabled,daily,2024-09-11,olive.lopez@prospect.com,2026-09-30,,2024-09-20,service_user_5597@meridiandata.io
+100460,5597,rule_snapchat_account_has_auto_tagging_enabled,compliance,Enabled,daily,2025-01-28,quinn.kaur@prospect.com,2026-09-30,,2025-02-16,service_user_5597@meridiandata.io
+100461,5597,rule_pinterest_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2025-03-05,frank.turner@prospect.com;quinn.chen@meridiandata.io,2026-09-29,,2025-03-11,service_user_5597@meridiandata.io
+100462,5597,rule_tiktok_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-09-30,james.ito@prospect.com,2026-05-18,Configuration invalid: field not queryable,2024-10-02,elena.adams@prospect.com
+100463,5632,rule_google_ads_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-12-10,liam.moore@juniper.com;carla.evans@meridiandata.io,2026-09-29,,2024-12-25,frank.wolfe@juniper.com
+100464,5632,rule_bing_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-09-18,hugo.jensen@juniper.com,2026-09-30,,2024-09-30,grace.fischer@juniper.com
+100465,5632,rule_bing_campaign_is_at_or_less_10_avg_cpc,threshold,Enabled,daily,2024-04-24,maya.ito@juniper.com,2026-09-30,,2024-05-05,grace.owens@juniper.com
+100466,5632,rule_bing_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-09-22,quinn.ito@juniper.com,2026-09-28,,2024-10-06,noah.turner@juniper.com
+100467,5632,rule_google_ads_campaign_present_in_utm,compliance,Enabled,daily,2025-03-25,elena.silva@juniper.com,2026-09-29,,2025-03-31,service_user_5632@meridiandata.io
+100468,5632,rule_linkedin_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-05-17,noah.turner@juniper.com,2026-09-02,Configuration invalid: field not queryable,2024-05-24,service_user_5632@meridiandata.io
+100469,5632,rule_facebook_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-10-21,tara.novak@juniper.com,2026-03-06,Code: 241. DB::Exception: Memory limit exceeded,2024-11-02,dmitri.chen@juniper.com
+100470,5632,rule_tiktok_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-07-17,rosa.reyes@juniper.com,2026-09-28,,2024-07-31,ben.adams@juniper.com
+100471,5632,rule_bing_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,daily,2024-11-18,noah.fischer@juniper.com;frank.adams@meridiandata.io,2026-08-19,"Dataset is empty, no content to insert",2024-12-02,service_user_5632@meridiandata.io
+100472,5632,rule_bing_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-06-11,olive.gray@juniper.com,2026-09-28,,2024-06-28,service_user_5632@meridiandata.io
+100473,5632,rule_facebook_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2025-01-12,pedro.silva@juniper.com,2026-06-09,Has 122 rows which exceeds the limit of 5000,2025-01-26,service_user_5632@meridiandata.io
+100474,5632,rule_pinterest_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-01-10,grace.diaz@juniper.com;james.moore@meridiandata.io,2026-09-30,,2025-01-11,hugo.hughes@juniper.com
+100475,5632,rule_linkedin_campaign_present_in_utm,compliance,Disabled,daily,2024-11-17,quinn.reyes@juniper.com;carla.moore@meridiandata.io,2026-08-16,,2024-11-22,maya.evans@juniper.com
+100476,5632,rule_pinterest_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-10-13,carla.novak@juniper.com,2026-03-02,Has 697 rows which exceeds the limit of 5000,2024-11-01,service_user_5632@meridiandata.io
+100477,5632,rule_bing_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-12-06,olive.kaur@juniper.com,2026-09-28,,2024-12-12,hugo.chen@juniper.com
+100478,5669,rule_pinterest_campaign_contains_negative_keyword,compliance,Enabled,daily,2025-03-02,grace.novak@stonebridge.com,2026-09-29,,2025-03-09,service_user_5669@meridiandata.io
+100479,5669,rule_pinterest_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-05-02,james.novak@stonebridge.com;frank.reyes@meridiandata.io,2026-09-28,,2024-05-02,hugo.adams@stonebridge.com
+100480,5669,rule_bing_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-12-10,carla.novak@stonebridge.com;elena.evans@meridiandata.io,2026-02-10,"Dataset is empty, no content to insert",2024-12-12,service_user_5669@meridiandata.io
+100481,5669,rule_google_ads_account_has_auto_tagging_enabled,compliance,Enabled,monthly,2025-02-26,carla.gray@stonebridge.com,2026-08-22,Has 455 rows which exceeds the limit of 5000,2025-03-01,rosa.owens@stonebridge.com
+100482,5669,rule_linkedin_campaign_contains_negative_keyword,compliance,Disabled,daily,2024-06-07,tara.owens@stonebridge.com,2026-07-17,,2024-06-22,service_user_5669@meridiandata.io
+100483,5669,rule_linkedin_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-02-17,liam.jensen@stonebridge.com,2026-09-29,,2025-02-20,maya.silva@stonebridge.com
+100484,5669,rule_linkedin_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2025-03-11,quinn.fischer@stonebridge.com,2026-09-30,,2025-03-31,service_user_5669@meridiandata.io
+100485,5669,rule_pinterest_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-08-20,hugo.adams@stonebridge.com,2026-08-26,Configuration invalid: field not queryable,2024-08-23,iris.adams@stonebridge.com
+100486,5669,rule_pinterest_campaign_name_contains_region_code_matching_allowed_values,naming,Disabled,daily,2025-02-28,elena.evans@stonebridge.com;liam.adams@meridiandata.io,2026-05-12,,2025-03-03,kate.owens@stonebridge.com
+100487,5703,rule_pinterest_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-05-06,elena.silva@yarrow.com,2026-09-29,,2024-05-09,noah.jensen@yarrow.com
+100488,5703,rule_bing_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-12-25,quinn.adams@yarrow.com;hugo.gray@meridiandata.io,2026-04-07,Code: 241. DB::Exception: Memory limit exceeded,2025-01-06,quinn.turner@yarrow.com
+100489,5703,rule_facebook_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2025-04-07,quinn.owens@yarrow.com,2026-09-29,,2025-04-26,service_user_5703@meridiandata.io
+100490,5703,rule_snapchat_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2024-07-23,tara.silva@yarrow.com,2026-09-30,,2024-08-11,maya.turner@yarrow.com
+100491,5703,rule_google_ads_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-11-29,olive.chen@yarrow.com,2026-09-28,,2024-11-29,service_user_5703@meridiandata.io
+100492,5703,rule_bing_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2025-03-10,tara.wolfe@yarrow.com,2026-03-04,"Dataset is empty, no content to insert",2025-03-10,service_user_5703@meridiandata.io
+100493,5703,rule_google_ads_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-04-09,iris.turner@yarrow.com,2026-09-30,,2025-04-12,carla.kaur@yarrow.com
+100494,5703,rule_facebook_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-05-05,maya.novak@yarrow.com,2026-08-03,Found at least 1 id with 470 duplicates,2024-05-20,service_user_5703@meridiandata.io
+100495,5703,rule_google_ads_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2024-08-11,maya.wolfe@yarrow.com,2026-09-29,,2024-08-28,pedro.kaur@yarrow.com
+100496,5703,rule_bing_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-08-08,quinn.jensen@yarrow.com,2026-09-30,,2024-08-22,service_user_5703@meridiandata.io
+100497,5703,rule_tiktok_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-07-16,grace.lopez@yarrow.com,2026-09-29,,2024-08-05,iris.diaz@yarrow.com
+100498,5703,rule_tiktok_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-01-23,pedro.owens@yarrow.com,2026-09-29,,2025-02-05,kate.evans@yarrow.com
+100499,5703,rule_linkedin_campaign_present_in_utm,compliance,Enabled,daily,2024-04-10,sam.jensen@yarrow.com,2026-03-26,Configuration invalid: field not queryable,2024-04-28,service_user_5703@meridiandata.io
+100500,5703,rule_tiktok_campaign_present_in_utm,compliance,Enabled,daily,2024-09-14,rosa.patel@yarrow.com,2026-09-28,,2024-09-28,ben.silva@yarrow.com
+100501,5703,rule_google_ads_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-06-26,tara.hughes@yarrow.com,2026-09-29,,2024-07-07,sam.kaur@yarrow.com
+100502,5703,rule_tiktok_campaign_is_at_or_less_10_avg_cpc,threshold,Enabled,daily,2024-10-16,olive.wolfe@yarrow.com,2026-09-29,,2024-10-29,noah.diaz@yarrow.com
+100503,5703,rule_google_ads_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2025-03-31,dmitri.diaz@yarrow.com;noah.hughes@meridiandata.io,2026-09-06,Found at least 1 id with 223 duplicates,2025-04-02,service_user_5703@meridiandata.io
+100509,5747,rule_snapchat_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2025-04-09,sam.gray@fairhaven.com,2026-09-30,,2025-04-20,service_user_5747@meridiandata.io
+100510,5747,rule_facebook_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-05-09,elena.patel@fairhaven.com;james.patel@meridiandata.io,2026-04-03,Has 527 rows which exceeds the limit of 5000,2024-05-17,rosa.kaur@fairhaven.com
+100511,5747,rule_facebook_campaign_present_in_utm,compliance,Enabled,daily,2024-05-21,grace.owens@fairhaven.com,2026-09-30,,2024-05-28,anna.diaz@fairhaven.com
+100513,5747,rule_pinterest_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2025-02-02,james.ito@fairhaven.com,2026-09-30,,2025-02-19,carla.diaz@fairhaven.com
+100515,5747,rule_google_ads_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-02-25,iris.brooks@fairhaven.com,2026-09-30,,2025-02-27,olive.owens@fairhaven.com
+100523,5747,rule_snapchat_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,daily,2024-10-07,anna.gray@fairhaven.com;kate.wolfe@meridiandata.io,2026-09-30,,2024-10-15,sam.gray@fairhaven.com
+100524,5784,rule_snapchat_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2024-10-02,hugo.patel@stonebridge.com,2026-05-26,Code: 241. DB::Exception: Memory limit exceeded,2024-10-09,service_user_5784@meridiandata.io
+100526,5814,rule_tiktok_spend_percentage_increased_by_25,pacing,Enabled,daily,2025-02-12,sam.fischer@ridgeway.com;anna.owens@meridiandata.io,2026-09-30,,2025-02-14,service_user_5814@meridiandata.io
+100533,5814,rule_linkedin_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-09-30,elena.reyes@ridgeway.com,2026-09-28,,2024-10-09,service_user_5814@meridiandata.io
+100534,5814,rule_tiktok_campaign_present_in_utm,compliance,Enabled,daily,2024-07-16,iris.reyes@ridgeway.com,2026-07-16,Code: 241. DB::Exception: Memory limit exceeded,2024-08-04,service_user_5814@meridiandata.io
+100536,5814,rule_facebook_campaign_is_at_or_less_10_avg_cpc,threshold,Enabled,weekly,2024-11-04,anna.brooks@ridgeway.com,2026-05-13,"Dataset is empty, no content to insert",2024-11-12,ben.adams@ridgeway.com
+100537,5814,rule_google_ads_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2025-01-23,rosa.reyes@ridgeway.com,2026-03-27,Code: 60. DB::Exception: Table does not exist,2025-01-28,quinn.reyes@ridgeway.com
+100540,5814,rule_facebook_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2025-04-14,quinn.moore@ridgeway.com,2026-05-19,Has 64 rows which exceeds the limit of 5000,2025-04-16,service_user_5814@meridiandata.io
+100542,5814,rule_snapchat_campaign_present_in_utm,compliance,Enabled,daily,2024-04-11,liam.patel@ridgeway.com;elena.brooks@meridiandata.io,2026-09-28,,2024-04-21,service_user_5814@meridiandata.io
+100543,5814,rule_google_ads_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-12-21,frank.hughes@ridgeway.com,2026-09-29,,2025-01-07,service_user_5814@meridiandata.io
+100546,5814,rule_google_ads_campaign_is_at_or_above_1_vcr,threshold,Disabled,daily,2024-11-17,anna.novak@ridgeway.com;grace.ito@meridiandata.io,2026-08-25,,2024-11-17,hugo.owens@ridgeway.com
+100548,5814,rule_google_ads_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-07-29,grace.gray@ridgeway.com,2026-09-30,,2024-08-02,quinn.lopez@ridgeway.com
+100550,5814,rule_linkedin_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-04-12,anna.owens@ridgeway.com;pedro.owens@meridiandata.io,2026-09-29,,2024-04-23,dmitri.fischer@ridgeway.com
+100553,5814,rule_bing_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-07-01,hugo.owens@ridgeway.com,2026-09-30,,2024-07-05,service_user_5814@meridiandata.io
+100557,5814,rule_bing_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-04-29,maya.silva@ridgeway.com,2026-09-29,,2024-05-02,service_user_5814@meridiandata.io
+100558,5814,rule_snapchat_campaign_contains_negative_keyword,compliance,Enabled,monthly,2024-07-18,james.reyes@ridgeway.com,2026-09-30,,2024-07-28,grace.adams@ridgeway.com
+100562,5814,rule_tiktok_campaign_has_tracking_url_template,compliance,Enabled,weekly,2025-02-06,maya.lopez@ridgeway.com,2026-09-28,,2025-02-09,sam.wolfe@ridgeway.com
+100568,5814,rule_google_ads_campaign_name_contains_channel_matching_allowed_values,naming,Disabled,daily,2024-06-25,elena.fischer@ridgeway.com,2025-12-11,,2024-06-29,service_user_5814@meridiandata.io
+100571,5814,rule_bing_campaign_has_tracking_url_template,compliance,Enabled,monthly,2025-03-15,liam.ito@ridgeway.com,2026-09-30,,2025-03-18,tara.evans@ridgeway.com
+100577,5814,rule_linkedin_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-06-30,carla.novak@ridgeway.com,2026-09-30,,2024-07-02,service_user_5814@meridiandata.io
+100578,5814,rule_snapchat_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-06-22,tara.brooks@ridgeway.com,2026-09-29,,2024-06-25,service_user_5814@meridiandata.io
+100580,5814,rule_pinterest_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-07-11,frank.lopez@ridgeway.com,2026-09-29,,2024-07-14,service_user_5814@meridiandata.io
+100583,5814,rule_google_ads_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2024-12-30,quinn.jensen@ridgeway.com;olive.kaur@meridiandata.io,2026-09-30,,2025-01-08,ben.novak@ridgeway.com
+100586,5814,rule_google_ads_spend_percentage_increased_by_25,pacing,Disabled,daily,2024-09-02,elena.turner@ridgeway.com;carla.hughes@meridiandata.io,2026-05-08,,2024-09-21,service_user_5814@meridiandata.io
+100587,5814,rule_facebook_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,weekly,2025-04-29,frank.silva@ridgeway.com,2026-09-30,,2025-05-10,noah.diaz@ridgeway.com
+100588,5814,rule_snapchat_campaign_is_at_or_above_1000_impressions,threshold,Enabled,daily,2024-12-07,olive.chen@ridgeway.com,2026-09-30,,2024-12-14,service_user_5814@meridiandata.io
+100590,5814,rule_linkedin_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2024-04-07,noah.novak@ridgeway.com,2026-09-29,,2024-04-09,carla.adams@ridgeway.com
+100598,5814,rule_tiktok_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2025-01-26,tara.patel@ridgeway.com;james.reyes@meridiandata.io,2026-02-17,Found at least 1 id with 192 duplicates,2025-02-07,service_user_5814@meridiandata.io
+100600,5814,rule_pinterest_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-10-20,quinn.brooks@ridgeway.com,2026-09-29,,2024-10-22,noah.wolfe@ridgeway.com
+100603,5814,rule_facebook_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2025-04-23,tara.ito@ridgeway.com;iris.silva@meridiandata.io,2026-09-29,,2025-05-07,service_user_5814@meridiandata.io
+100616,5814,rule_facebook_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2025-03-08,kate.gray@ridgeway.com;rosa.fischer@meridiandata.io,2026-09-29,,2025-03-20,quinn.fischer@ridgeway.com
+100627,5856,rule_google_ads_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-04-15,anna.brooks@vertex.com;iris.evans@meridiandata.io,2026-09-30,,2024-04-26,service_user_5856@meridiandata.io
+100630,5893,rule_linkedin_campaign_name_prefix_matches_allowed_values,naming,Disabled,daily,2025-03-30,maya.jensen@belmont.com;olive.lopez@meridiandata.io,2026-05-14,,2025-04-07,service_user_5893@meridiandata.io
+100645,5893,rule_google_ads_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2025-01-15,quinn.moore@belmont.com,2026-09-28,,2025-01-17,service_user_5893@meridiandata.io
+100662,5893,rule_linkedin_account_has_auto_tagging_enabled,compliance,Enabled,daily,2025-02-07,kate.lopez@belmont.com,2026-09-28,,2025-02-14,maya.silva@belmont.com
+100670,5893,rule_facebook_campaign_present_in_utm,compliance,Enabled,daily,2024-09-27,anna.diaz@belmont.com,2026-09-29,,2024-09-29,sam.novak@belmont.com
+100671,5893,rule_pinterest_campaign_is_at_or_less_10_avg_cpc,threshold,Enabled,daily,2024-10-24,hugo.reyes@belmont.com;noah.wolfe@meridiandata.io,2026-09-28,,2024-10-31,pedro.novak@belmont.com
+100683,5893,rule_facebook_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-09-15,noah.reyes@belmont.com,2026-09-30,,2024-09-28,james.diaz@belmont.com
+100690,5893,rule_pinterest_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-10-08,olive.ito@belmont.com,2026-09-28,,2024-10-25,kate.kaur@belmont.com
+100693,5893,rule_linkedin_campaign_name_contains_entity_matching_allowed_values,naming,Disabled,daily,2024-07-07,noah.hughes@belmont.com,2026-07-16,,2024-07-22,grace.ito@belmont.com
+100706,5930,rule_linkedin_campaign_present_in_utm,compliance,Enabled,daily,2024-09-12,liam.hughes@brightline.com,2026-09-29,,2024-09-15,service_user_5930@meridiandata.io
+100709,5930,rule_facebook_account_has_auto_tagging_enabled,compliance,Enabled,weekly,2024-08-10,noah.brooks@brightline.com,2026-05-16,"Dataset is empty, no content to insert",2024-08-19,james.evans@brightline.com
+100710,5930,rule_google_ads_spend_percentage_increased_by_25,pacing,Enabled,daily,2025-02-04,dmitri.turner@brightline.com;tara.reyes@meridiandata.io,2026-09-30,,2025-02-21,service_user_5930@meridiandata.io
+100711,5930,rule_tiktok_campaign_has_tracking_url_template,compliance,Enabled,weekly,2024-11-04,ben.fischer@brightline.com,2026-09-29,,2024-11-20,service_user_5930@meridiandata.io
+100712,5930,rule_facebook_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2024-06-29,kate.owens@brightline.com;frank.jensen@meridiandata.io,2026-09-29,,2024-07-08,anna.patel@brightline.com
+100713,5930,rule_snapchat_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2024-05-25,sam.owens@brightline.com,2026-09-28,,2024-06-11,service_user_5930@meridiandata.io
+100721,5969,rule_facebook_campaign_is_at_or_above_1000_impressions,threshold,Enabled,daily,2025-01-17,rosa.novak@thornton.com,2026-09-29,,2025-01-27,service_user_5969@meridiandata.io
+100726,5969,rule_tiktok_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-09-17,quinn.lopez@thornton.com,2026-09-30,,2024-09-20,maya.brooks@thornton.com
+100732,6001,rule_linkedin_campaign_present_in_utm,compliance,Enabled,daily,2025-04-18,elena.patel@quarry.com,2026-07-14,,2025-04-20,grace.jensen@quarry.com
+100734,6001,rule_linkedin_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2025-02-18,pedro.evans@quarry.com,2026-04-13,Configuration invalid: field not queryable,2025-02-19,carla.lopez@quarry.com
+100735,6001,rule_google_ads_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-10-01,olive.wolfe@quarry.com,2026-05-23,,2024-10-15,noah.adams@quarry.com
+100739,6001,rule_bing_campaign_status_is_not_limited_by_budget,pacing,Disabled,daily,2024-12-04,ben.diaz@quarry.com,2026-03-13,,2024-12-15,kate.jensen@quarry.com
+100741,6001,rule_facebook_account_has_auto_tagging_enabled,compliance,Enabled,weekly,2024-09-04,noah.hughes@quarry.com,2026-06-06,,2024-09-13,service_user_6001@meridiandata.io
+100743,6001,rule_linkedin_spend_percentage_increased_by_25,pacing,Enabled,monthly,2025-01-12,dmitri.fischer@quarry.com,2026-09-30,,2025-01-18,service_user_6001@meridiandata.io
+100746,6001,rule_snapchat_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-07-19,rosa.patel@quarry.com;noah.kaur@meridiandata.io,2026-02-22,"Dataset is empty, no content to insert",2024-07-19,service_user_6001@meridiandata.io
+100747,6001,rule_bing_campaign_name_prefix_matches_allowed_values,naming,Enabled,weekly,2024-04-08,pedro.gray@quarry.com;pedro.novak@meridiandata.io,2026-09-30,,2024-04-26,quinn.owens@quarry.com
+100749,6040,rule_bing_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2025-04-07,,2026-09-28,,2025-04-25,service_user_6040@meridiandata.io
+100750,6040,rule_tiktok_campaign_has_tracking_url_template,compliance,Enabled,weekly,2024-11-01,sam.ito@meridiandata.io,2026-09-29,,2024-11-03,liam.reyes@brightline.com
+100751,6040,rule_google_ads_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2025-02-13,ben.gray@meridiandata.io,2026-09-28,,2025-03-01,service_user_6040@meridiandata.io
+100752,6040,rule_snapchat_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2024-04-25,liam.brooks@meridiandata.io,2026-09-28,,2024-05-15,elena.brooks@brightline.com
+100753,6040,rule_pinterest_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-07-28,liam.brooks@meridiandata.io,2026-06-02,Configuration invalid: field not queryable,2024-08-07,elena.patel@brightline.com
+100754,6040,rule_snapchat_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-09-24,,2026-08-04,Has 307 rows which exceeds the limit of 5000,2024-09-29,service_user_6040@meridiandata.io
+100755,6040,rule_pinterest_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2024-06-13,pedro.patel@meridiandata.io,2026-02-15,"Dataset is empty, no content to insert",2024-06-19,frank.hughes@brightline.com
+100756,6040,rule_linkedin_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-08-30,,2026-09-30,,2024-08-31,service_user_6040@meridiandata.io
+100757,6040,rule_tiktok_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-04-09,noah.gray@meridiandata.io,2026-09-04,Found at least 1 id with 108 duplicates,2024-04-22,hugo.evans@brightline.com
+100758,6040,rule_google_ads_campaign_is_at_or_less_10_avg_cpc,threshold,Enabled,daily,2025-01-04,,2026-09-29,,2025-01-05,liam.turner@brightline.com
+100759,6040,rule_pinterest_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-02-17,,2026-09-28,,2025-03-09,olive.chen@brightline.com
+100760,6040,rule_snapchat_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-12-18,quinn.reyes@meridiandata.io,2026-09-28,,2025-01-06,sam.patel@brightline.com
+100761,6040,rule_linkedin_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-05-08,pedro.turner@meridiandata.io,2026-09-28,,2024-05-16,frank.ito@brightline.com
+100762,6040,rule_bing_campaign_is_at_or_above_1000_impressions,threshold,Enabled,daily,2024-12-14,quinn.patel@meridiandata.io,2026-08-17,Found at least 1 id with 120 duplicates,2024-12-30,anna.jensen@brightline.com
+100763,6040,rule_linkedin_campaign_present_in_utm,compliance,Enabled,daily,2025-01-08,,2026-09-29,,2025-01-20,quinn.silva@brightline.com
+100764,6074,rule_linkedin_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2025-03-01,iris.fischer@anchor.com,2026-09-07,Found at least 1 id with 786 duplicates,2025-03-03,elena.turner@anchor.com
+100765,6074,rule_tiktok_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-08-21,sam.moore@anchor.com,2026-03-20,Found at least 1 id with 486 duplicates,2024-09-03,service_user_6074@meridiandata.io
+100766,6118,rule_facebook_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-08-20,frank.wolfe@meridiandata.io,2026-04-28,Code: 60. DB::Exception: Table does not exist,2024-08-29,grace.kaur@granite.com
+100767,6118,rule_facebook_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,monthly,2025-03-07,carla.moore@meridiandata.io,2026-09-28,,2025-03-21,liam.moore@granite.com
+100768,6118,rule_google_ads_campaign_has_tracking_url_template,compliance,Enabled,weekly,2024-08-30,,2026-09-30,,2024-09-14,service_user_6118@meridiandata.io
+100769,6118,rule_tiktok_account_has_auto_tagging_enabled,compliance,Enabled,daily,2025-01-04,iris.novak@meridiandata.io,2026-09-04,Has 265 rows which exceeds the limit of 5000,2025-01-05,liam.turner@granite.com
+100770,6118,rule_bing_campaign_present_in_utm,compliance,Enabled,daily,2024-12-27,,2026-09-28,,2024-12-30,dmitri.evans@granite.com
+100771,6118,rule_linkedin_spend_percentage_increased_by_25,pacing,Enabled,daily,2025-04-01,,2026-09-29,,2025-04-06,rosa.gray@granite.com
+100772,6118,rule_facebook_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-10-19,tara.hughes@meridiandata.io,2026-02-26,Configuration invalid: field not queryable,2024-11-05,service_user_6118@meridiandata.io
+100773,6118,rule_snapchat_campaign_is_at_or_above_1000_impressions,threshold,Enabled,monthly,2024-11-27,tara.fischer@meridiandata.io,2026-09-30,,2024-12-13,service_user_6118@meridiandata.io
+100774,6156,rule_tiktok_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,daily,2024-07-28,noah.chen@ashford.com;quinn.hughes@meridiandata.io,2026-09-28,,2024-08-06,service_user_6156@meridiandata.io
+100775,6156,rule_pinterest_campaign_present_in_utm,compliance,Enabled,daily,2025-01-22,liam.fischer@ashford.com;elena.diaz@meridiandata.io,2026-09-29,,2025-01-25,service_user_6156@meridiandata.io
+100776,6156,rule_tiktok_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2024-07-29,quinn.adams@ashford.com;kate.hughes@meridiandata.io,2026-09-28,,2024-08-18,service_user_6156@meridiandata.io
+100777,6156,rule_google_ads_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-05-21,quinn.patel@ashford.com,2026-09-30,,2024-05-21,service_user_6156@meridiandata.io
+100778,6156,rule_bing_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2024-12-27,noah.owens@ashford.com,2026-09-29,,2024-12-29,service_user_6156@meridiandata.io
+100779,6156,rule_google_ads_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-06-21,dmitri.ito@ashford.com,2026-09-28,,2024-06-23,service_user_6156@meridiandata.io
+100780,6156,rule_pinterest_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2024-04-28,rosa.evans@ashford.com;tara.wolfe@meridiandata.io,2026-09-28,,2024-05-09,service_user_6156@meridiandata.io
+100781,6156,rule_linkedin_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-06-10,ben.kaur@ashford.com,2026-09-29,,2024-06-19,sam.novak@ashford.com
+100782,6156,rule_snapchat_campaign_name_prefix_matches_allowed_values,naming,Enabled,monthly,2024-12-17,quinn.kaur@ashford.com;rosa.moore@meridiandata.io,2026-09-30,,2025-01-04,service_user_6156@meridiandata.io
+100783,6156,rule_linkedin_campaign_present_in_utm,compliance,Enabled,daily,2024-07-01,quinn.kaur@ashford.com,2026-09-30,,2024-07-21,service_user_6156@meridiandata.io
+100784,6156,rule_google_ads_campaign_contains_negative_keyword,compliance,Enabled,monthly,2025-02-13,elena.owens@ashford.com,2026-09-30,,2025-03-02,service_user_6156@meridiandata.io
+100785,6156,rule_linkedin_spend_percentage_increased_by_25,pacing,Enabled,daily,2025-03-26,elena.moore@ashford.com,2026-03-20,Configuration invalid: field not queryable,2025-03-31,pedro.hughes@ashford.com
+100786,6156,rule_pinterest_campaign_has_tracking_url_template,compliance,Enabled,daily,2025-01-31,iris.evans@ashford.com,2026-09-03,"Dataset is empty, no content to insert",2025-02-17,olive.chen@ashford.com
+100787,6156,rule_linkedin_campaign_is_at_or_above_1_vcr,threshold,Disabled,daily,2024-04-16,dmitri.patel@ashford.com,2026-01-09,,2024-05-04,elena.hughes@ashford.com
+100788,6156,rule_bing_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2025-02-11,noah.moore@ashford.com;iris.ito@meridiandata.io,2026-09-30,,2025-02-16,rosa.diaz@ashford.com
+100789,6156,rule_facebook_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2025-03-27,grace.lopez@ashford.com;ben.turner@meridiandata.io,2026-09-30,,2025-04-14,frank.chen@ashford.com
+100790,6187,rule_snapchat_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-11-04,elena.patel@granite.com,2026-05-11,,2024-11-07,service_user_6187@meridiandata.io
+100791,6187,rule_facebook_campaign_is_at_or_above_1_vcr,threshold,Enabled,weekly,2024-06-08,hugo.kaur@granite.com,2026-07-04,Code: 60. DB::Exception: Table does not exist,2024-06-25,service_user_6187@meridiandata.io
+100794,6187,rule_pinterest_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-06-13,grace.moore@granite.com,2026-06-21,Found at least 1 id with 476 duplicates,2024-07-03,ben.hughes@granite.com
+100799,6187,rule_tiktok_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-12-22,liam.moore@granite.com;noah.adams@meridiandata.io,2026-06-09,Code: 241. DB::Exception: Memory limit exceeded,2025-01-10,tara.gray@granite.com
+100800,6229,rule_pinterest_campaign_is_at_or_less_10_avg_cpc,threshold,Enabled,daily,2024-12-08,hugo.fischer@harbor.com,2026-09-29,,2024-12-15,service_user_6229@meridiandata.io
+100801,6229,rule_google_ads_campaign_is_at_or_above_1000_impressions,threshold,Enabled,daily,2025-04-15,noah.patel@harbor.com,2026-05-25,"Dataset is empty, no content to insert",2025-05-02,service_user_6229@meridiandata.io
+100802,6229,rule_bing_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2025-01-23,dmitri.lopez@harbor.com,2026-05-25,Code: 60. DB::Exception: Table does not exist,2025-01-26,dmitri.diaz@harbor.com
+100803,6229,rule_google_ads_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2024-05-30,quinn.silva@harbor.com,2026-09-29,,2024-06-11,james.fischer@harbor.com
+100804,6229,rule_pinterest_campaign_name_contains_entity_matching_allowed_values,naming,Disabled,daily,2024-10-23,noah.kaur@harbor.com,2026-02-02,,2024-10-31,service_user_6229@meridiandata.io
+100805,6229,rule_pinterest_campaign_status_is_not_limited_by_budget,pacing,Enabled,weekly,2024-05-15,frank.silva@harbor.com,2026-09-30,,2024-05-31,kate.owens@harbor.com
+100806,6229,rule_google_ads_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,daily,2024-06-28,hugo.reyes@harbor.com,2026-09-30,,2024-07-14,quinn.chen@harbor.com
+100807,6229,rule_facebook_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-09-10,hugo.evans@harbor.com,2026-09-30,,2024-09-27,service_user_6229@meridiandata.io
+100808,6229,rule_pinterest_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,monthly,2025-03-11,noah.adams@harbor.com,2026-09-29,,2025-03-13,noah.gray@harbor.com
+100809,6229,rule_facebook_campaign_present_in_utm,compliance,Enabled,daily,2025-05-02,olive.chen@harbor.com,2026-09-29,,2025-05-15,service_user_6229@meridiandata.io
+100810,6229,rule_tiktok_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-10-01,hugo.kaur@harbor.com,2026-09-28,,2024-10-21,olive.kaur@harbor.com
+100811,6229,rule_tiktok_spend_percentage_increased_by_25,pacing,Enabled,weekly,2024-12-03,frank.wolfe@harbor.com,2026-09-30,,2024-12-13,iris.novak@harbor.com
+100812,6229,rule_linkedin_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-11-17,ben.chen@harbor.com;frank.turner@meridiandata.io,2026-09-28,,2024-12-01,service_user_6229@meridiandata.io
+100813,6229,rule_google_ads_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2025-01-09,james.lopez@harbor.com,2026-06-01,Code: 241. DB::Exception: Memory limit exceeded,2025-01-24,service_user_6229@meridiandata.io
+100814,6229,rule_bing_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,weekly,2025-01-17,james.novak@harbor.com;pedro.owens@meridiandata.io,2026-09-28,,2025-01-23,service_user_6229@meridiandata.io
+100815,6229,rule_pinterest_spend_percentage_increased_by_25,pacing,Disabled,daily,2024-08-08,rosa.diaz@harbor.com;noah.evans@meridiandata.io,2026-02-16,,2024-08-21,service_user_6229@meridiandata.io
+100817,6266,rule_linkedin_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,daily,2024-12-12,,2026-09-29,,2024-12-27,service_user_6266@meridiandata.io
+100818,6266,rule_snapchat_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-09-01,carla.silva@meridiandata.io,2026-09-29,,2024-09-02,service_user_6266@meridiandata.io
+100819,6266,rule_facebook_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,daily,2024-12-20,,2026-09-30,,2024-12-24,dmitri.turner@summit.com
+100827,6266,rule_facebook_account_has_auto_tagging_enabled,compliance,Enabled,daily,2025-04-09,maya.hughes@meridiandata.io,2026-03-06,Code: 241. DB::Exception: Memory limit exceeded,2025-04-25,pedro.brooks@summit.com
+100830,6266,rule_snapchat_account_has_auto_tagging_enabled,compliance,Enabled,daily,2025-03-08,pedro.lopez@meridiandata.io,2026-09-28,,2025-03-08,service_user_6266@meridiandata.io
+100833,6266,rule_google_ads_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-06-09,,2026-09-30,,2024-06-10,service_user_6266@meridiandata.io
+100834,6266,rule_pinterest_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2025-03-04,,2026-09-29,,2025-03-04,sam.moore@summit.com
+100840,6298,rule_tiktok_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-09-10,,2026-06-23,Code: 241. DB::Exception: Memory limit exceeded,2024-09-15,service_user_6298@meridiandata.io
+100844,6298,rule_linkedin_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-08-04,frank.wolfe@meridiandata.io,2026-09-29,,2024-08-08,dmitri.adams@clearwater.com
+100846,6298,rule_bing_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-11-02,,2026-03-11,Code: 60. DB::Exception: Table does not exist,2024-11-05,iris.novak@clearwater.com
+100848,6298,rule_snapchat_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,weekly,2024-12-16,kate.ito@meridiandata.io,2026-05-29,Has 842 rows which exceeds the limit of 5000,2024-12-23,maya.patel@clearwater.com
+100849,6298,rule_pinterest_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2025-01-06,dmitri.wolfe@meridiandata.io,2026-04-17,Code: 241. DB::Exception: Memory limit exceeded,2025-01-22,olive.owens@clearwater.com
+100852,6298,rule_tiktok_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,daily,2025-02-14,james.brooks@meridiandata.io,2026-09-28,,2025-03-01,service_user_6298@meridiandata.io
+100856,6298,rule_facebook_account_has_auto_tagging_enabled,compliance,Enabled,weekly,2024-11-24,,2026-08-23,"Dataset is empty, no content to insert",2024-11-27,olive.moore@clearwater.com
+100857,6336,rule_snapchat_campaign_present_in_utm,compliance,Disabled,daily,2024-05-10,,2025-12-14,,2024-05-28,service_user_6336@meridiandata.io
+100858,6336,rule_pinterest_campaign_name_prefix_matches_allowed_values,naming,Enabled,monthly,2024-09-02,frank.chen@meridiandata.io,2026-09-01,Found at least 1 id with 359 duplicates,2024-09-19,pedro.gray@ridgeway.com
+100859,6336,rule_pinterest_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-05-20,quinn.brooks@meridiandata.io,2026-03-23,Code: 241. DB::Exception: Memory limit exceeded,2024-05-28,maya.jensen@ridgeway.com
+100860,6336,rule_bing_account_has_auto_tagging_enabled,compliance,Enabled,weekly,2024-12-17,quinn.gray@meridiandata.io,2026-09-28,,2024-12-23,service_user_6336@meridiandata.io
+100861,6336,rule_google_ads_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-09-02,quinn.brooks@meridiandata.io,2026-09-28,,2024-09-15,service_user_6336@meridiandata.io
+100862,6336,rule_snapchat_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-04-11,noah.patel@meridiandata.io,2026-09-28,,2024-04-21,dmitri.evans@ridgeway.com
+100863,6336,rule_tiktok_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-08-13,,2026-09-28,,2024-08-22,hugo.patel@ridgeway.com
+100864,6336,rule_linkedin_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-08-16,dmitri.wolfe@meridiandata.io,2026-09-30,,2024-08-24,olive.kaur@ridgeway.com
+100865,6336,rule_pinterest_account_has_auto_tagging_enabled,compliance,Enabled,daily,2024-04-17,iris.reyes@meridiandata.io,2026-09-29,,2024-05-02,service_user_6336@meridiandata.io
+100866,6336,rule_linkedin_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,weekly,2024-05-16,olive.reyes@meridiandata.io,2026-09-30,,2024-05-24,anna.evans@ridgeway.com
+100867,6336,rule_facebook_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-08-09,ben.kaur@meridiandata.io,2026-09-29,,2024-08-20,anna.jensen@ridgeway.com
+100868,6336,rule_snapchat_campaign_name_prefix_matches_allowed_values,naming,Enabled,daily,2024-08-17,olive.diaz@meridiandata.io,2026-09-30,,2024-09-06,service_user_6336@meridiandata.io
+100869,6336,rule_bing_campaign_has_tracking_url_template,compliance,Disabled,daily,2024-11-28,iris.gray@meridiandata.io,2026-01-08,,2024-11-29,iris.brooks@ridgeway.com
+100870,6336,rule_pinterest_campaign_is_at_or_above_0_1_ctr,threshold,Enabled,daily,2024-08-13,hugo.turner@meridiandata.io,2026-09-28,,2024-08-18,service_user_6336@meridiandata.io
+100871,6336,rule_google_ads_campaign_has_tracking_url_template,compliance,Enabled,weekly,2024-10-24,pedro.wolfe@meridiandata.io,2026-08-06,"Dataset is empty, no content to insert",2024-11-12,service_user_6336@meridiandata.io
+100872,6336,rule_facebook_campaign_name_prefix_matches_allowed_values,naming,Enabled,weekly,2024-11-03,quinn.novak@meridiandata.io,2026-09-28,,2024-11-16,iris.ito@ridgeway.com
+100873,6336,rule_bing_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-04-12,noah.owens@meridiandata.io,2026-09-30,,2024-04-19,service_user_6336@meridiandata.io
+100874,6336,rule_google_ads_campaign_name_contains_entity_matching_allowed_values,naming,Enabled,daily,2025-01-28,maya.chen@meridiandata.io,2026-09-28,,2025-02-02,rosa.chen@ridgeway.com
+100875,6336,rule_snapchat_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2024-12-25,liam.owens@meridiandata.io,2026-09-28,,2025-01-09,service_user_6336@meridiandata.io
+100876,6369,rule_tiktok_campaign_present_in_utm,compliance,Enabled,daily,2025-02-04,pedro.fischer@carrow.com;liam.chen@meridiandata.io,2026-03-19,Has 497 rows which exceeds the limit of 5000,2025-02-17,service_user_6369@meridiandata.io
+100877,6369,rule_facebook_account_has_auto_tagging_enabled,compliance,Enabled,weekly,2024-09-14,liam.novak@carrow.com;dmitri.novak@meridiandata.io,2026-09-30,,2024-09-15,maya.diaz@carrow.com
+100878,6369,rule_pinterest_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-06-25,noah.owens@carrow.com,2026-03-28,"Dataset is empty, no content to insert",2024-07-09,anna.reyes@carrow.com
+100879,6369,rule_facebook_campaign_present_in_utm,compliance,Enabled,daily,2024-09-07,liam.reyes@carrow.com,2026-09-28,,2024-09-16,service_user_6369@meridiandata.io
+100880,6369,rule_snapchat_campaign_contains_negative_keyword,compliance,Enabled,weekly,2024-12-21,pedro.patel@carrow.com,2026-09-29,,2025-01-08,carla.wolfe@carrow.com
+100881,6369,rule_pinterest_campaign_present_in_utm,compliance,Enabled,monthly,2024-06-22,olive.kaur@carrow.com,2026-09-30,,2024-07-09,kate.kaur@carrow.com
+100882,6369,rule_snapchat_campaign_has_tracking_url_template,compliance,Enabled,weekly,2024-10-14,dmitri.wolfe@carrow.com,2026-09-28,,2024-10-30,service_user_6369@meridiandata.io
+100883,6369,rule_tiktok_account_has_auto_tagging_enabled,compliance,Enabled,daily,2025-03-02,pedro.reyes@carrow.com;elena.reyes@meridiandata.io,2026-02-09,Has 88 rows which exceeds the limit of 5000,2025-03-08,liam.hughes@carrow.com
+100884,6369,rule_pinterest_campaign_present_in_utm,compliance,Enabled,daily,2025-03-16,liam.wolfe@carrow.com,2026-09-28,,2025-03-24,service_user_6369@meridiandata.io
+100885,6369,rule_facebook_campaign_name_contains_region_code_matching_allowed_values,naming,Disabled,daily,2025-03-17,james.owens@carrow.com,2026-03-11,,2025-04-06,service_user_6369@meridiandata.io
+100886,6369,rule_google_ads_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-10-11,maya.owens@carrow.com;kate.fischer@meridiandata.io,2026-09-01,"Dataset is empty, no content to insert",2024-10-22,service_user_6369@meridiandata.io
+100887,6369,rule_google_ads_campaign_present_in_utm,compliance,Enabled,daily,2024-09-02,iris.adams@carrow.com,2026-09-29,,2024-09-07,service_user_6369@meridiandata.io
+100888,6369,rule_bing_account_has_auto_tagging_enabled,compliance,Enabled,weekly,2024-06-11,frank.lopez@carrow.com,2026-09-30,,2024-06-25,grace.moore@carrow.com
+100889,6369,rule_facebook_campaign_name_prefix_matches_allowed_values,naming,Disabled,daily,2024-08-27,sam.owens@carrow.com,2026-02-17,,2024-09-04,service_user_6369@meridiandata.io
+100890,6369,rule_google_ads_campaign_name_contains_channel_matching_allowed_values,naming,Enabled,weekly,2024-09-07,dmitri.gray@carrow.com,2026-09-08,Code: 60. DB::Exception: Table does not exist,2024-09-19,olive.ito@carrow.com
+100891,6369,rule_google_ads_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-06-09,pedro.gray@carrow.com,2026-09-28,,2024-06-17,rosa.evans@carrow.com
+100892,6369,rule_tiktok_campaign_has_tracking_url_template,compliance,Enabled,daily,2024-12-11,james.evans@carrow.com,2026-04-27,Found at least 1 id with 276 duplicates,2024-12-31,olive.lopez@carrow.com
+100899,6410,rule_tiktok_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-07-09,ben.turner@fairhaven.com,2026-09-28,,2024-07-25,service_user_6410@meridiandata.io
+100903,6410,rule_google_ads_spend_percentage_increased_by_25,pacing,Enabled,daily,2024-08-01,elena.gray@fairhaven.com;pedro.chen@meridiandata.io,2026-08-03,Configuration invalid: field not queryable,2024-08-01,dmitri.evans@fairhaven.com
+100904,6410,rule_bing_campaign_is_at_or_above_1000_impressions,threshold,Enabled,weekly,2024-07-12,tara.fischer@fairhaven.com,2026-07-29,Has 318 rows which exceeds the limit of 5000,2024-07-31,kate.brooks@fairhaven.com
+100908,6410,rule_linkedin_campaign_is_at_or_above_1_vcr,threshold,Enabled,daily,2024-08-12,rosa.hughes@fairhaven.com,2026-09-29,,2024-09-01,service_user_6410@meridiandata.io
+100909,6410,rule_google_ads_campaign_contains_negative_keyword,compliance,Enabled,daily,2024-08-07,elena.reyes@fairhaven.com,2026-03-20,Code: 60. DB::Exception: Table does not exist,2024-08-07,service_user_6410@meridiandata.io
+100914,6450,rule_tiktok_campaign_present_in_utm,compliance,Enabled,daily,2024-08-09,maya.patel@harbor.com;james.wolfe@meridiandata.io,2026-09-28,,2024-08-12,frank.fischer@harbor.com
+100915,6450,rule_snapchat_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-10-15,dmitri.owens@harbor.com,2026-09-30,,2024-10-28,olive.jensen@harbor.com
+100916,6450,rule_bing_campaign_name_contains_region_code_matching_allowed_values,naming,Enabled,daily,2025-01-04,grace.lopez@harbor.com,2026-09-30,,2025-01-16,kate.moore@harbor.com
+100917,6450,rule_pinterest_campaign_contains_negative_keyword,compliance,Enabled,daily,2025-02-16,hugo.diaz@harbor.com,2026-09-30,,2025-03-07,sam.novak@harbor.com
+100921,6450,rule_pinterest_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-10-15,hugo.reyes@harbor.com,2026-06-14,Code: 241. DB::Exception: Memory limit exceeded,2024-11-02,service_user_6450@meridiandata.io
+100923,6450,rule_facebook_campaign_status_is_not_limited_by_budget,pacing,Enabled,daily,2024-11-22,liam.brooks@harbor.com,2026-09-09,Code: 241. DB::Exception: Memory limit exceeded,2024-12-06,service_user_6450@meridiandata.io
